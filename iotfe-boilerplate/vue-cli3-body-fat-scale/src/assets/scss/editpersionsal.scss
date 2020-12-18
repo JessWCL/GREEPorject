@@ -1,0 +1,105 @@
+.page-editpersional {
+  background-color: #f4f4f4;
+  .page-content {
+    overflow: hidden;
+    .page-header {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 0;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% 100%;
+      .list {
+        top: 129px;
+        .item-content {
+          .item-inner {
+            .item-after {
+              img {
+                width: 80px;
+                height: 80px;
+              }
+              label {
+                display: inline-flex;
+                justify-items: center;
+                vertical-align: middle;
+                align-items: center;
+                &:nth-child(1) {
+                  margin-right: 62px;
+                }
+                input[type='radio'] {
+                  width: 70px;
+                  height: 70px;
+                  margin-right: 5px;
+                }
+              }
+              .gree-field-item-content:after {
+                background-color: #fff;
+              }
+              .gree-field-item-content {
+                min-height: 80px;
+              }
+            }
+          }
+        }
+      }
+      .gree-header-right {
+        a {
+          // color: #f4f4f4;
+        }
+      }
+    }
+    .page-bottom {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 150px;
+      width: 100%;
+      border-top: 1px solid #ededee;
+      span {
+        font-size: 45px;
+      }
+    }
+    .popup-bottom {
+      position: relative;
+      box-sizing: border-box;
+      text-align: center;
+      background-color: #fff;
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .page-body {
+      height: 100%;
+    }
+    .gree-picker-extend {
+      &:not(.picker2):not(.picker3) {
+        .gree-picker-column {
+          padding: 0 27px;
+          .gree-picker-column-container {
+            .gree-picker-column-list {
+              .gree-picker-column-item {
+                &::after {
+                  content: 'cm';
+                  position: absolute;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  right: 0;
+                  color: #00aeff;
+                  font-size: 16px;
+                  left: 60%;
+                }
+              }
+              .column-item {
+                color: #00aeff;
+                font-size: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

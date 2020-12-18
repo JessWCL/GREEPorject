@@ -1,0 +1,33 @@
+.page-main-help {
+  height: 95%;
+  overflow: scroll;
+  .main-details-bg {
+    margin-top: 160px;
+    .title-txt {
+      font-size: 42px;
+      color: #404657;
+      padding-left: 53px;
+    }
+    .context {
+      margin-top: 28px;
+      padding-left: 53px;
+      padding-right: 53px;
+      .context-title {
+        font-size: 42px;
+        color: #404657;
+        opacity: 0.8;
+        padding-top: 49px;
+      }
+      .context-body {
+        font-size: 38px;
+        color: #404657;
+        opacity: 0.6;
+        margin-top: 34px;
+        img {
+          width: 1000px;
+          height: 800px;
+        }
+      }
+    }
+  }
+}

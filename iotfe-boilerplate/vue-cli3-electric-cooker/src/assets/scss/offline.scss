@@ -1,0 +1,51 @@
+.page-offline {
+  .page-header {
+    height: 100% !important;
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    background-image: url(~@assets/img/bg_body.png);
+  }
+  .offline-body {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    .offline-empty {
+      position: absolute;
+      width: 312px;
+      height: 63px;
+      left: 50%;
+      top: 80px;
+      transform: translateX(-50%);
+      background-image: url(~@assets/img/offline.png);
+      background-size: 100% 100%;
+    }
+    .offline-msg {
+      position: absolute;
+      top: 157px;
+      width: 100%;
+      text-align: center;
+      padding-top: 30px;
+      font-size: 43px;
+      .offline-msg-link {
+        color: #00aeff;
+        padding-bottom: 2px;
+        position: relative;
+        &:after {
+          content: ' ';
+          position: absolute;
+          top: 0;
+          left: 0;
+          border-bottom: 2px solid #00aeff;
+          width: 200%;
+          height: 200%;
+          transform: scale(0.5);
+          transform-origin: 0 0;
+        }
+      }
+    }
+  }
+}

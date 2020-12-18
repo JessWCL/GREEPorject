@@ -1,0 +1,3 @@
+const lang = {
+  DeviceName: 'Humidifier'
+};

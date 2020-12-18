@@ -1,0 +1,29 @@
+@font-face {
+  font-family: FZ;
+  src: url('../.././assets/font/FZ.TTF');
+}
+$white06: rgba(255, 255, 255, 0.6);
+$white07: rgba(255, 255, 255, 0.7);
+$white09: rgba(255, 255, 255, 0.9);
+$font42: 42px;
+$font36: 36px;
+$blue: #00aeff;
+
+.icon-back:before {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.gree-progress-dashboard {
+  width: 400px;
+  .gree-progress__text {
+    font-family: FZ !important;
+    font-size: 160px !important;
+    color: transparent !important;
+    margin-top: 18px !important;
+    width: 400px !important;
+  }
+}

@@ -1,0 +1,44 @@
+.filter-card {
+  position: relative;
+  height: 359px;
+  background-color: #f99a3c;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 20px 20px 0 20px;
+  .filter-rough {
+    padding: 43px 0 0 35px;
+    font-size: 42px;
+    color: aliceblue;
+  }
+  .filter-allowance {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 42px;
+    color: aliceblue;
+  }
+  .filter-text {
+    text-align: center;
+    padding-top: 21px;
+    font-size: 38px;
+    color: aliceblue;
+  }
+  .line {
+      height: 1px;
+      background: radial-gradient(white -24%, #F9993C 100%);
+      width: 300px;
+      margin: 34px auto 0 auto;
+  }
+}
+.filter-firm {
+  height: 120px;
+  background-color: #fff;
+  margin: 0 20px 20px 20px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  .filter-reset {
+    text-align: center;
+    padding-top: 38px;
+    font-size: 45px;
+    color: #00aeff;
+  }
+}

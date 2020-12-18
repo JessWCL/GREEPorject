@@ -1,0 +1,23 @@
+<!-- <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>828306</mid>
+  <version>2.9</version>
+  <moduleVer>1</moduleVer>
+  <uiVersion>1</uiVersion>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["WorkStatus","ErrorCode1","ErrorCode2","JFerr"]</statueJson>
+  <statueJson2>["ErrorCode1","ErrorCode2","WorkStatus","FilterNum","TotalPureWater","LifeTimeFilter1","LifeTimeFilter2","LifeTimeFilter3","LifeTimeFilter4","LifeTimeFilter5","LifeFilterDays1","LifeFilterDays2","LifeFilterDays3","LifeFilterDays4","LifeFilterDays5","FilterKind1","FilterKind2","FilterKind3","FilterKind4","FilterKind5","FilterWarning1","FilterWarning2","FilterWarning3","FilterWarning4","FilterWarning5","JFerr"]</statueJson2>
+</device> -->
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>828307</mid>
+  <version>1.3</version>
+  <moduleVer>1</moduleVer>
+  <uiVersion>1</uiVersion>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["WorkStatus","ErrorCode1","ErrorCode2","JFerr"]</statueJson>
+  <statueJson2>["ErrorCode1","ErrorCode2","WorkStatus","FilterNum","TotalPureWater","LifeTimeFilter1","LifeTimeFilter2","LifeTimeFilter3","LifeTimeFilter4","LifeTimeFilter5","LifeFilterDays1","LifeFilterDays2","LifeFilterDays3","LifeFilterDays4","LifeFilterDays5","FilterKind1","FilterKind2","FilterKind3","FilterKind4","FilterKind5","FilterWarning1","FilterWarning2","FilterWarning3","FilterWarning4","FilterWarning5","JFerr"]</statueJson2>
+</device>

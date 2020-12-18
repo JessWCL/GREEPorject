@@ -1,0 +1,207 @@
+// view-basket
+.view-basket {
+  .gree-header {
+    position: fixed;
+    &.is-download {
+      .gree-header-left {
+        display: none;
+      }
+    }
+    .gree-header-left {
+      left: 50px !important;
+    }
+    .gree-header-right {
+      top: 25px;
+      font-size: 42px;
+    }
+  }
+  .page {
+    position: relative;
+    background: #f6f6f6;
+    .empty-data-contianer {
+      img {
+        display: block;
+        margin: 0 auto;
+        padding-top: 292px;
+        width: 961px;
+        height: 680px;
+      }
+      p {
+        text-align: center;
+        color: #b3b3b3;
+        font-size: 36px;
+        &.success {
+          margin-top: 72px;
+        }
+      }
+    }
+    .page-content {
+      padding-top: 0;
+      padding-bottom: 191px;
+      .gree-check-list {
+        &.is-edit {
+          .gree-check-item {
+            .gree-cell-item-body {
+              .gree-cell-item-left {
+                display: block;
+              }
+            }
+            .gree-cell-item-content {
+              .card {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+        .gree-check-item {
+          .gree-cell-item-body {
+            align-items: unset;
+            padding: 0;
+            &::after {
+              display: none;
+            }
+            .gree-cell-item-left {
+              display: none;
+              margin: 60px 20px 0 20px;
+              .gree-check.is-checked {
+                .gree-check-icon {
+                  color: #ffd03f;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  } 
+  .card {
+    .card-header {
+      overflow: hidden;
+      justify-content: center;
+      font-size: 48px;
+      color: #404657;
+      font-weight: normal;
+      .gree-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 176px;
+        font-size: 48px;
+        background: #ff0202;
+        color: #fff;
+        border-radius: 0;
+        &.default:after {
+          display: none;
+        }
+      }
+    }
+    .card-content {
+      padding-top: 16px;
+    }
+    .gree-divider {
+      background: none;
+      .gree-divider__text {
+        &.is-left {
+          left: 0;
+        }
+        font-size: 48px;
+        color: #404657;
+        background: none;
+        text-align: center;
+        &::before {
+          display: block;
+          content: '[';
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        &::after {
+          display: block;
+          content: ']';
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+      }
+    }
+    .row {
+      .col {
+        font-size: 42px;
+        line-height: 78px;
+        color: #404657;
+        span {
+          float: right;
+        }
+      }
+    }
+  }
+  .list ul {
+    background: none;
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+  }
+  .list.share-page-wrapper {
+    position: absolute;
+    bottom: 0;
+    bottom: env(safe-area-inset-bottom);
+    left: 0;
+    right: 0;
+    margin: 0;
+    ul {
+      background: #ffffff;
+      li {
+        .item-content {
+          min-height: 191px;
+          .item-media {
+            img {
+              width: 115px;
+              height: 115px;
+            }
+          }
+          .item-after {
+            justify-content: center;
+            height: 72px;
+            width: 295px;
+            padding: 10px 20px;
+            line-height: 72px;
+            font-size: 36px;
+            color: #454956;
+            border-radius: 50px;
+            background: #ffd03f;
+          }
+        }
+      }
+      &::before {
+        display: none;
+      }
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .gree-button.btn-basket {
+    &.button-block {
+      width: 936px;
+      border-radius: 64px;
+      background: #ffd03f;
+      color: #404657;
+    }
+    position: fixed;
+    right: 72px;
+    bottom: 72px;
+    left: 72px;
+    &.default::after {
+      display: none;
+    }
+  }
+  .gree-divider {
+    .gree-divider__text {
+      color: #989898;
+      background: #f4f4f4;
+    }
+  }
+}

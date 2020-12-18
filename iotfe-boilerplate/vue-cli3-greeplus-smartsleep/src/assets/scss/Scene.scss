@@ -1,0 +1,52 @@
+// 选择场景的页面
+.page-scene {
+  .gree-header {
+    background: white;
+    height: 120px;
+    .gree-header-left {
+      color: black;
+    }
+    .gree-header-title {
+      color: black;
+    }
+  }
+
+  .page-content {
+    padding-bottom: 0;
+    .show-area {
+      border-top: 30px solid #f4f4f4;
+      border-left: 20px solid #f4f4f4;
+      border-right: 20px solid #f4f4f4;
+      background: white;
+      .header {
+        height: 70px;
+        line-height: 70px;
+        padding-left: 45px;
+        padding-top: 10px;
+        font-size: 36px;
+        color: #919191;
+      }
+      .list {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 0;
+        .list-item {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          height: 220px;
+          width: 208px;
+          img {
+            height: 115px;
+            width: 115px;
+          }
+          .list-name {
+            // margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}

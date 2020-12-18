@@ -1,0 +1,48 @@
+/*
+* 统一使用的共同样式
+*/
+
+// 顶部导航栏
+.unify-header {
+  // background-color: transparent;
+  border: none;
+  background-size: 0;
+  .gree-header-left {
+    margin-left: 0rem;
+    margin-top: 0.03rem;
+    .gree-icon.icon-font {
+      font-weight: 600;
+    }
+  }
+  .gree-header-right {
+    margin-right: 0rem;
+    margin-top: -0.13rem;
+    .gree-icon.icon-font {
+      font-weight: 300;
+    }
+    .save-text {
+      margin-top: 0.07rem;
+      margin-right: 0.3rem;
+      font-size: 46px;
+      font-weight: 500;
+    }
+  }
+  .gree-header-title {
+    color: #404657;
+    margin: 0 1.5rem;
+    font-size: 56px;
+  }
+  .gree-icon {
+    color: #404657;
+  }
+}
+
+// 故障页头部导航栏
+.unify-error-header {
+  .gree-header-left {
+    .gree-icon.icon-font.md {
+      margin-left: 0.3rem;
+      font-weight: 600;
+    }
+  }
+}

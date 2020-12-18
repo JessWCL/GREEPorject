@@ -1,0 +1,128 @@
+{
+  "id": "1929356",
+  "name": "电饭煲插件图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15907276",
+      "name": "开始",
+      "font_class": "kaishi",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "15773423",
+      "name": "保温",
+      "font_class": "baowen",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "15773424",
+      "name": "煲汤",
+      "font_class": "baotang",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "15773426",
+      "name": "蛋糕",
+      "font_class": "dangao",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "15773427",
+      "name": "模式",
+      "font_class": "moshi",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "15773428",
+      "name": "快煮饭",
+      "font_class": "kuaizhufan",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "15773429",
+      "name": "精煮饭",
+      "font_class": "jingzhufan",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "15773430",
+      "name": "定时",
+      "font_class": "dingshi",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "15773431",
+      "name": "糙米饭",
+      "font_class": "caomifan",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "15773432",
+      "name": "蒸煮",
+      "font_class": "zhengzhu",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "15773433",
+      "name": "酸奶",
+      "font_class": "suannai",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "15773434",
+      "name": "稀饭",
+      "font_class": "xifan",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "15773435",
+      "name": "热饭",
+      "font_class": "refan",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "15773436",
+      "name": "煮粥",
+      "font_class": "zhuzhou",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "15773437",
+      "name": "烹饪设置",
+      "font_class": "pengrenshezhi",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "15773438",
+      "name": "杂粮粥",
+      "font_class": "zaliangzhou",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "15773439",
+      "name": "菜谱",
+      "font_class": "caipu",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    }
+  ]
+}

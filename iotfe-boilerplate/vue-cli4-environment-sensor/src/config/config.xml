@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>80241</mid>
+  <version>5.6</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","LigPow","ScrTime","AutoCtr","TemSor","HumSor","HCHO","PM2P5","CO2","InAirQuality","SensorErr","BatteryWarn"]</statueJson>
+  <statueJson2>["Pow","LigPow","ScrTime","AutoCtr","TemSor","HumSor","HCHO","PM2P5","CO2","InAirQuality","SensorErr","BatteryWarn"]</statueJson2>
+  <moduleVer>1</moduleVer>
+</device>
+<!-- <device>
+  <mid>80242</mid>
+  <version>2.1</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","LigPow","ScrTime","AutoCtr","TemSor","HumSor","HCHO","PM2P5","CO2","InAirQuality","SensorErr","BatteryWarn"]</statueJson>
+  <statueJson2>["Pow","LigPow","ScrTime","AutoCtr","TemSor","HumSor","HCHO","PM2P5","CO2","InAirQuality","SensorErr","BatteryWarn"]</statueJson2>
+  <moduleVer>1</moduleVer>
+</device> -->

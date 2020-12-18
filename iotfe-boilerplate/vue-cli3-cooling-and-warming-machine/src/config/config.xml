@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>809030</mid>
+  <version>2.9</version>
+  <moduleVer>1</moduleVer>
+  <!-- 没有这一行的 -->
+  <!-- 有这一行： 取值 int   0：iot旧模板（部分还在使用需要兼容的）  1：黎工iot模板-->
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Mod","Temp","WtTemp","ColWtSetTem","HtWtSetTem","ColSetTem","HtSetTem","AcSvSt","SvSt","AssHt","Quiet","OutMode","Er","TemUn","host","name","HWMax","HWMin","HSMax","HSMin","CWMax","CWMin","CSMax","CSMin","AntiF","SvStDebug"]</statueJson>
+  <statueJson2>["Pow","Mod","Temp","WtTemp","ColWtSetTem","HtWtSetTem","ColSetTem","HtSetTem","AcSvSt","SvSt","AssHt","Quiet","OutMode","Er","TemUn","host","name","HWMax","HWMin","HSMax","HSMin","CWMax","CWMin","CSMax","CSMin","AntiF","SvStDebug","Ocmd", "err", "enAcSvSt", "DebugOk", "Machine"]</statueJson2>
+</device> 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 187 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>washer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="91.5546306" cy="91.5" r="91.5"></circle>
+    </defs>
+    <g id="卡片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="22五大系统-02健康" transform="translate(-1143.000000, -288.000000)">
+            <g id="路径-2复制-2" transform="translate(1145.000000, 290.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="蒙版" stroke="#32C5FF" stroke-width="3" fill-opacity="0.7" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M-18,96.5304484 C20.5522933,88.6776722 55.1887457,95.7590931 85.9093573,117.774711 C116.629969,139.790329 158.412532,142.934112 211.257047,127.206058 L165.66974,196.329123 L47.3697207,205.072156 L-5.91918453,167.184339 L-18,96.5304484 Z" id="路径-2复制" fill="#32C5FF" opacity="0.300000012" mask="url(#mask-2)" transform="translate(110.628523, 149.252857) rotate(-20.0) translate(-96.628523, -149.252857) "></path>
+                <path d="M-18,91.0968903 C20.5522933,83.2441141 55.1887457,90.325535 85.9093573,112.341153 C116.629969,134.356771 158.412532,137.500553 211.257047,121.7725 L165.66974,190.895564 L47.3697207,199.638598 L-5.91918453,161.750781 L-18,91.0968903 Z" id="路径-2" fill="#32C5FF" opacity="0.200000003" mask="url(#mask-2)" transform="translate(0, 5)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

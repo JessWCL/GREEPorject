@@ -1,0 +1,19 @@
+@import 'home';
+@import 'offline';
+
+.hidden {
+  display: none !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  background-color: transparent;
+}
+ul, ol, dl, li, dt, dd {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+

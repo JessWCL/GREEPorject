@@ -1,0 +1,23 @@
+.page-sweep {
+  background-color: #fff;
+  .gree-sweep-select {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .point-text {
+    pointer-events: none;
+    position: absolute;
+    bottom: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    p {
+      color: #8c8c8c;
+      font-size: 40px;
+    }
+  }
+}

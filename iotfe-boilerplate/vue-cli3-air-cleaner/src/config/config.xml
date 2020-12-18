@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>828105</mid>
+  <version>1.6</version>
+  <moduleVer>1</moduleVer>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","mode","wipm25","light","FiltUPercent","FiltUPercent1","FiltUPercent2","JFerr","estate","estate2","sterilize"]</statueJson>
+  <statueJson2>["Pow","mode","wipm25","light","FiltUPercent","FiltUPercent1","FiltUPercent2","JFerr","estate","estate1","estate2","sterilize"]</statueJson2>
+</device>

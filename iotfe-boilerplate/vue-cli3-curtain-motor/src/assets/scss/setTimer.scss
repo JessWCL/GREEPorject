@@ -1,0 +1,55 @@
+.picker-column {
+  max-width: 100%;
+  margin: 10px auto;
+
+  .gree-picker {
+    &.picker-time {
+      .gree-picker-column {
+        padding: 0;
+        .gree-picker-column-container {
+          .gree-picker-column-masker {
+            left: 0;
+            right: 0;
+            z-index: 0;
+            &.top {
+              &::before {
+                visibility: hidden;
+              }
+            }
+
+            &.bottom {
+
+              &::after {
+                visibility: hidden;
+              }
+            }
+          }
+
+          .gree-picker-column-list {
+            width: 50%;
+            margin: 0 auto;
+
+            .gree-picker-column-item {
+              &:nth-of-type(1) {
+                &::after {
+                  position: absolute;
+                  top: 48%;
+                  transform: translateY(-50%);
+                  right: 0;
+                  font-size: 102px;
+                }
+              }
+            }
+          }
+
+          .column-list {
+            .column-item {
+              font-size: 160px;
+              font-weight: 100 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

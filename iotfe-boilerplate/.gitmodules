@@ -1,0 +1,3 @@
+[submodule "static"]
+	path = static
+	url = http://10.2.11.226/iot-4/web/iotfe-cordova-api.git

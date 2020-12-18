@@ -1,0 +1,33 @@
+.gree-error {
+  position: relative;
+  .gree-offline-content {
+    .gree-offline-pic {
+      width: 312px !important;
+      // height: 72px !important;
+    }
+    .gree-offline-text {
+      font-size: 48px !important;
+    }
+  }
+}
+
+.tipList {
+  font-family: 'FZLTH--GB1-4';
+  font-size: 45px;
+  position: relative;
+  bottom: 48%;
+  z-index: inherit;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: left;
+  li {
+    line-height: 70px;
+    position: relative;
+  }
+  span {
+    &:last-child {
+      color: #00ADFF;
+    }
+  }
+}

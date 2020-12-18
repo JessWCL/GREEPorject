@@ -1,0 +1,66 @@
+.box-bg-img {
+  position: relative;
+  height: 1039px;
+  background: url(../img/box_detail_blank.png) no-repeat;
+  background-size: 100% 100%;
+  .typeVal {
+    padding: 30px;
+    span {
+      color: white;
+    }
+    .tips_type {
+      font-size: 45px;
+      margin-right: 10px;
+    }
+    &_text {
+      font-size: 35px !important;
+    }
+    .scale {
+      position: relative;
+      margin-top: 60px;
+      height: 10px;
+      border-bottom: 3px solid #ffffff;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: space-around;
+      .rules {
+        display: block;
+        border-left: 3px solid #ffffff;
+        border-right: 3px solid #ffffff;
+      }
+      .tips-text {
+        position: absolute;
+        background: url(../img/tips.png) no-repeat;
+        background-size: 100% 100%;
+        top: -42px;
+        text-align: center;
+        font-size: 34px;
+        color: #70990d;
+      }
+    }
+    .tips {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5px;
+      font-size: 40px;
+    }
+  }
+}
+.item-inner {
+  display: flex;
+}
+.list {
+  z-index: 1;
+  font-size: 0.31481rem;
+  margin: 0;
+}
+.extend-title {
+  font-size: 42px !important;
+}
+.edit-text {
+  width: 150px;
+}

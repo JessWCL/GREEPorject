@@ -1,0 +1,68 @@
+@mixin background-image($url, $size: 100%, $pos: center) {
+  background-image: $url;
+  background-repeat: no-repeat;
+  background-position: $pos;
+  background-size: $size;
+}
+
+// Margin & Padding
+@mixin m($val) {
+  margin: $val;
+}
+
+@mixin mt($val) {
+  margin-top: $val;
+}
+
+@mixin mb($val) {
+  margin-bottom: $val;
+}
+
+@mixin ml($val) {
+  margin-left: $val;
+}
+
+@mixin mr($val) {
+  margin-right: $val;
+}
+
+@mixin mv($val) {
+  margin: $val auto;
+}
+
+@mixin mh($val) {
+  margin: auto $val;
+}
+
+@mixin p($val) {
+  padding: $val;
+}
+
+@mixin pt($val) {
+  padding-top: $val;
+}
+
+@mixin pb($val) {
+  padding-bottom: $val;
+}
+
+@mixin pl($val) {
+  padding-left: $val;
+}
+
+@mixin pr($val) {
+  padding-right: $val;
+}
+
+@mixin pv($val) {
+  padding: $val auto;
+}
+
+@mixin ph($val) {
+  padding: auto $val;
+}
+
+// 圆角
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}

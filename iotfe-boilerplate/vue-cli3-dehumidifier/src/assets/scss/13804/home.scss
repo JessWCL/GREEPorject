@@ -1,0 +1,108 @@
+// 覆盖scss/home.scss样式，修改13804home页样式请结合assets/scss/home.scss样式修改
+.page-home {
+  .page-content {
+    .page-header {
+      .mod-carousel-holder {
+        img {
+          width: 89px;
+        }
+        .mod-text {
+          text-shadow: none;
+          font-size: 71px;
+        }
+      }
+    }
+    .page-main {
+      position: relative;
+      .tem-carousel-holder {
+        text-align: center;
+        box-sizing: content-box;
+        .tem-carousel-pos {
+          left: 0;
+          margin-top: 100px;
+          .content-wrapper {
+            font-family: 'robotoThin';
+            display: flex;
+            justify-content: center;
+          }
+        }
+
+        .humidity-unit {
+          top: 135px;
+        }
+        .row {
+          top: 427px;
+          width: 100%;
+          text-align: center;
+          p {
+            color: #404657;
+            font-size: 49px;
+            letter-spacing: 3px;
+          }
+        }
+      }
+      .fan-carousel-holder {
+        top: 582px;
+        .rotate-fan {
+          top: 117px;
+          font-size: 65px;
+        }
+      }
+    }
+    .page-footer {
+      z-index: 100;
+      position: absolute;
+      box-sizing: border-box;
+      bottom: 0;
+      height: 320px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .item {
+        margin: 0px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+          width: 190px;
+          height: 190px;
+        }
+        span {
+          font-size: 45px;
+          margin-top: 2px;
+        }
+      }
+      .hidden {
+        display: none;
+      } 
+      .center {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.uv-humidity-label {
+  font-family: appleUltralight,'SF UI Display Ultralight';
+  font-size: 2.9rem;
+}
+.toolbar {
+  bottom: 70px !important;
+  .row {
+    justify-content: space-between;
+    .col,
+    .col-100,
+    .col-25 {
+      margin: 0 24px;
+      .icon {
+        background: none;
+        border: none;
+        box-shadow: none;
+        img {
+          width: 174px;
+          height: 174px;
+        }
+      }
+    }
+  }
+}

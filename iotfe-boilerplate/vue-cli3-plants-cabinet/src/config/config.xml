@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>828e00</mid>
+  <version>1.6</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Light", "Wind", "WatPump", "LigOnH", "LigOnM", "LigOffH", "LigOffM", "WindOnH", "WindOnM", "WindOffH", "WindOffM", "WatOnH", "WatOnM", "WatOffH", "WatOffM", "PltType", "TempS", "TempR", "HumdS", "HumdR"]</statueJson>
+  <statueJson2>["Light", "Wind", "WatPump", "LigOnH", "LigOnM", "LigOffH", "LigOffM", "WindOnH", "WindOnM", "WindOffH", "WindOffM", "WatOnH", "WatOnM", "WatOffH", "WatOffM", "PltType", "TempS", "TempR", "HumdS", "HumdR"]</statueJson2>
+</device>

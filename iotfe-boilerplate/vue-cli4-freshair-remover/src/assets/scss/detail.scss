@@ -1,0 +1,27 @@
+.detail-page {
+  .gree-radio-list {
+    padding: 0 56px;
+    .gree-cell-item-title {
+      color: #404657 !important;
+    }
+    .gree-radio {
+      .gree-radio-icon {
+        .gree-icon {
+          &:before {
+            content: '';
+          }
+        }
+      }
+    }
+    .gree-radio,
+    .gree-radio.is-checked {
+      width: 68px;
+      height: 68px;
+      background-image: url('../img/select.png');
+      background-size: 100% 100%;
+    }
+    .gree-radio {
+      background-image: url('../img/unselcet.png');
+    }
+  }
+}

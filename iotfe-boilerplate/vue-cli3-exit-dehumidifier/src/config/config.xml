@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>13803</mid>
+  <version>1.5</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Dmod","Dwet","host","name","TemSen","estateInsta21","estateOutsta22","estateOutsta23","estateOutsta24","DwatFul"]</statueJson>
+  <statueJson2>["Pow","Dwet","DwatSen","Dmod","WdSpd","Dfltr","DwatFul","AllErr","TemSen","Health","AppTimer","Lig","MidType","estateInsta21","estateOutsta22","estateOutsta24","estateOutsta23"]</statueJson2>
+</device>

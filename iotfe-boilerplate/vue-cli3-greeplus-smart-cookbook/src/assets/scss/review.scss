@@ -1,0 +1,255 @@
+
+html, body, #app {
+  max-width: 414Px;
+  max-height: 736Px;
+  margin: 0 auto;
+}
+
+// view-review
+.view-review {
+  .page {
+    .page-content {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+  }
+
+  .banner-wrapper {
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    .gree-tag {
+      position: absolute;
+      right: 50px;
+      top: 30px;
+
+      div {
+        font-size: 36px;
+        padding: 7px 17px;
+        border-radius: 6px;
+      }
+    }
+
+    .gree-image.banner {
+      width: 1080px;
+      height: 608px;
+    }
+  }
+
+  .gree-header {
+    .gree-header-left {
+      left: 50px !important;
+    }
+
+    .gree-header-right {
+      top: 28px;
+    }
+  }
+
+  .block {
+    padding-left: 46px;
+    padding-right: 46px;
+  }
+
+  .block.dis {
+    font-size: 42px;
+    line-height: 75px;
+    color: #404657;
+  }
+
+  .gree-button.btn-basket {
+    width: 224px;
+    height: 75px;
+    margin-right: 24px;
+    line-height: 75px;
+    background: #f4f4f4;
+
+    &.default:after {
+      border-color: #616573;
+    }
+
+    .gree-button-content {
+      font-size: 36px;
+      color: #404657;
+    }
+
+    &.hightlight {
+      background: #ffd03f;
+    }
+
+    &.hightlight.default:after {
+      border-color: transparent;
+    }
+
+    img {
+      margin-right: 16px;
+      width: 43px;
+      height: 45px;
+    }
+  }
+
+  .basket-button-wrapper {
+    .gree-button.btn-basket {
+      position: absolute;
+      top: 0;
+      right: 45px;
+      margin-right: 0;
+    }
+  }
+
+  .block.sdis {
+    font-size: 36px;
+    line-height: 72px;
+    color: #404657;
+  }
+
+  .block.tips {
+    margin-bottom: 100px;
+    font-size: 36px;
+    line-height: 72px;
+    color: #404657;
+  }
+
+  .block.title {
+    font-size: 48px;
+    line-height: 70px;
+    color: #404657;
+
+    &.title__tips {
+      margin-left: 46px;
+      text-indent: 16px;
+
+      &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin-top: -25px;
+        width: 50px;
+        height: 50px;
+        background: #ffd03f;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .foods-wrapper {
+    .row {
+      padding: 0 45px;
+      min-height: 120px;
+
+      &.loading {
+        .col {
+          background: #efefef;
+          transform: scaleY(0.7);
+        }
+      }
+
+      .col {
+        position: relative;
+        font-size: 42px;
+        line-height: 120px;
+        color: #404657;
+
+        span {
+          float: right;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          display: block;
+          height: 1px;
+          transform: scaleY(0.3333);
+          background-color: #e5e5e5;
+        }
+      }
+
+      &:last-child {
+        .col {
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .list {
+    ul {
+      background: none;
+
+      &::before,
+      &::after {
+        display: none;
+      }
+
+      .item-content {
+        .item-inner {
+          .item-title,
+          .item-after {
+            font-size: 42px;
+            color: #404657;
+          }
+        }
+      }
+    }
+  }
+
+  .gree-divider {
+    .gree-divider__text {
+      color: #989898;
+      background: #f4f4f4;
+    }
+  }
+
+  .gree-divider.title {
+    &.gree-divider--horizontal {
+      margin: 79px auto;
+      height: 75px;
+    }
+
+    background: none;
+
+    .gree-divider__text {
+      top: 50%;
+      font-size: 48px;
+      color: #404657;
+      background: none;
+
+      &::before {
+        display: block;
+        content: "[";
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      &::after {
+        display: block;
+        content: "]";
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+
+  .steps {
+    .gree-image {
+      min-height: 548px;
+    }
+
+    .gree-image__img {
+      margin: 0 auto;
+      width: 974px;
+      min-height: 548px;
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import 'home';
+@import 'offline';
+@import 'drawer';
+
+.hidden {
+  display: none !important;
+}
+
+.gree-dialog {
+  .gree-dialog-content {
+    border-radius: 0px;
+    width: 920px;
+    .gree-dialog-body {
+      padding-top: 108px;
+      font-size: 48px;
+    }
+    .gree-dialog-btn {
+      font-size: 42px;
+    }
+  }
+}
+
+// .view {
+//   .statusbar {
+//     height: 0px;
+//   }
+// }

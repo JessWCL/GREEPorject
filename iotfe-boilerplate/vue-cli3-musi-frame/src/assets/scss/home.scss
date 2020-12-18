@@ -1,0 +1,157 @@
+.page-home {
+  background-color: #f4f4f4;
+  .page-header {
+    position: relative;
+    width: 100%;
+    height: 669px;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    .gree-header-right a{
+      color: white;
+      margin-right: 12px;
+    }
+  }
+  .mod-ctrl {
+    position: absolute;
+    width: 1080px;
+    top: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    img {
+      position: absolute;
+      top: 100px;
+      transform: translate(-50%, -50%);
+      // width: 800px;
+      // height: 800px;
+    }
+  }
+  .mod-text {
+    position: absolute;
+    top: 280px;
+    color: white;
+    font-size: 60px;
+  }
+  .page-main {
+    padding-top: 40px;
+    .ctrl-board {
+      position: absolute;
+      width: 100%;
+      bottom: 20%;
+      img:nth-child(2n+1) {
+        height: 150px;
+      }
+      img:nth-child(2) {
+        margin: 0 50px;
+        height: 200px;
+      }
+      .row:nth-child(2n) {
+        justify-content: space-around;
+        align-items: center;
+        margin: {
+          top: 45px;
+        }
+        font-size: 42px;
+  
+      }
+      .row:nth-child(2n+1) {
+        font-size: 42px;
+        margin: {
+          top: 30px;
+          bottom: 70px;
+        }
+        padding-left: 57px;
+      }
+    }
+  }
+  .page-footer {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .item:first-child {
+      margin-left: 50px; 
+    }
+    .item:last-child {
+      margin-right: 50px; 
+    }
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 190px;
+        height: 190px;
+      }
+      span {
+        font-size: 45px;
+        margin-top: 2px;
+      }
+    } 
+  }
+  .drawer-area {
+    width: 10rem;
+    background: white;
+    font-size: 42px;
+    >.row:first-child {
+      padding-top: 30px;
+      justify-content: center;
+      img {
+        width: 50px;
+      }
+    }
+    .control {
+      margin-top: 20px;
+      .row:first-child {
+        margin-left: 53px;
+      }
+      .row:nth-child(2) {
+        justify-content: center;
+        margin:{
+          top: 60px;
+          bottom: 35px;;
+        }
+        .van-slider {
+          width: 73%;
+        }
+      }
+      .row:last-child {
+        color: #9FA1A8;
+        padding-bottom: 50px;
+        .col:nth-child(1) {
+          padding-left: 120px;
+        }
+        .col:nth-child(2) {
+          text-align: center;
+        }
+        .col:nth-child(3) {
+          text-align: right;
+          padding-right: 120px;
+        }
+      }
+    }
+  }
+}
+
+// 控制条的样式
+#slider .van-slider__bar{
+  background-color: transparent;
+  .van-slider__button-wrapper {
+    display: flex;
+    align-items: center;
+    .select {
+      width: 60px !important;
+    }
+  }
+} 
+
+.page-content {
+  overflow: hidden !important;
+}

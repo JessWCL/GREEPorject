@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>28a02</mid>
+  <version>1.5</version>
+  <moduleVer>1</moduleVer>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","devState","launch","washMode","timeAll","timeLeft","runStage","order","orderLaunch","orderTimeHour","orderTimeMin","setWashTime","washTemp","potch","speed","mute","childLock","error1","error2","error3","error4","prompt1","prompt2","JFerr"]</statueJson>
+  <statueJson2>["Pow","devState","launch","washMode","timeAll","timeLeft","runStage","order","orderLaunch","orderTimeHour","orderTimeMin","setWashTime","washTemp","potch","speed","mute","childLock","error1","error2","error3","error4","prompt1","prompt2","JFerr"]</statueJson2>
+</device>

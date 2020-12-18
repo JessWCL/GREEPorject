@@ -1,0 +1,17 @@
+.view-appointment {
+    .list {
+        margin: 0;
+    }
+    .picker-appointment-container {
+        position: relative;
+        padding: 0 15%;
+        background: white;
+        .tips {
+            position: absolute;
+            top: 50%;
+            right: 5%;
+            font-size: 42px;
+            color: #F1A37C;
+        }
+    }
+}

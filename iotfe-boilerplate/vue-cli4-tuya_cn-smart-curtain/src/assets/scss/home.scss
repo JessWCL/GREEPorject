@@ -1,0 +1,136 @@
+$headerHeight: 763px;
+$toolbarHeight: 260px;
+
+.page-home {
+  .page-header {
+    position: relative;
+    width: 100%;
+    height: $headerHeight;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    .curtain {
+      position: relative;
+      top: 250px;
+      left: 50%;
+      width: 726px;
+      height: 400px;
+      transform: translateX(-50%);
+      background: url(../img/icon_sunblind.png) center no-repeat;
+    }
+    // .curtain {
+    //   position: relative;
+    //   top: 250px;
+    //   left: 50%;
+    //   transform: translateX(-50%);
+    //   width: 726px;
+    //   height: 400px;
+    //   &::before {
+    //     content: '';
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     width: 726px;
+    //     height: 16px;
+    //     background: url(../img/pole.png) center no-repeat;
+    //     background-size: cover;
+    //   }
+    //   .curtain-left,
+    //   .curtain-right {
+    //     position: absolute;
+    //     top: 18px;
+    //     width: 313px;
+    //     height: 399px;
+    //     background-repeat: no-repeat;
+    //     background-position: center;
+    //     background-size: cover;
+    //   }
+    //   .curtain-left {
+    //     left: 47px;
+    //     background-image: url(../img/curtain1.png);
+    //   }
+    //   .curtain-right {
+    //     right: 47px;
+    //     background-image: url(../img/curtain2.png);
+    //   }
+    // }
+  }
+  .page-main {
+    position: relative;
+    height: calc(100vh - #{$toolbarHeight} - #{$headerHeight});
+    height: calc(100vh - #{$toolbarHeight} - #{$headerHeight} - #{env(safe-area-inset-bottom)});
+    .block {
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 0;
+      margin: 0;
+      .row {
+        text-align: center;
+        .col {
+          .gree-button {
+            width: 330px;
+            height: 245px;
+            background: transparent;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            border: none;
+            &:active {
+              &::before {
+                opacity: 0;
+              }
+            }
+            &::after {
+              display: none;
+            }
+            &:nth-child(1) {
+              background-image: url(../img/open.png);
+              &:active {
+                background-image: url(../img/open_on.png);
+              }
+            }
+            &:nth-child(2) {
+              width: 245px;
+              height: 245px;
+              margin: 0 50px;
+              background-image: url(../img/stop.png);
+              &:active {
+                background-image: url(../img/stop_on.png);
+              }
+            }
+            &:nth-child(3) {
+              background-image: url(../img/close.png);
+              &:active {
+                background-image: url(../img/close_on.png);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.toolbar {
+  bottom: 70px !important;
+  height: $toolbarHeight !important;
+  background-color: transparent !important;
+  .row {
+    width: 100%;
+    text-align: center;
+    justify-content: flex-start;
+    .col-25 {
+      .icon {
+        background: none;
+        border: none;
+        box-shadow: none;
+        img {
+          width: 180px;
+          height: 180px;
+        }
+      }
+    }
+  }
+}

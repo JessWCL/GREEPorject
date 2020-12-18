@@ -1,0 +1,117 @@
+.Favorites {
+  .page-content{
+    padding-bottom: 0;
+  }
+  .page-main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    .gree-radio-list{
+      padding: 0;
+    }
+    .gree-cell-item-body{
+      padding: 0;
+    }
+    .bg {
+      position: relative;
+      height: 573px;
+      width: 100%;
+      margin: 3px 0;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+      .wash-mode {
+        position: absolute;
+        right: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 100px;
+        margin-top: 106px;
+        color: #fff;
+        text-align: center;
+      }
+
+      .wash-type {
+        position: absolute;
+        right: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 48px;
+        margin-top: 238px;
+        color: #fff;
+        text-align: center;
+      }
+
+      .start-img{
+        position: absolute;
+        right: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 308px;
+        height: 180px;
+        width: 180px;
+        background-size: 100% 100%;
+      }
+
+      .fav-check {
+        display: inline-block;
+        right: 60px;
+        position: absolute;
+        margin-top: 260px;
+        width: 57px;
+        height: 57px;
+
+        i {
+          font-size: 70px ;
+        }
+      }
+    }
+
+    .del-btn {
+      z-index: 1;
+      position: absolute;
+      bottom: 51px;
+      right: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 927px;
+      height: 144px;
+      font-size: 45px;
+      color: #fff;
+      background-color: #4bb6f7;
+    }
+  
+    .no-favour{
+      margin-top: 214px;
+      background-size: 100% 100%;
+      height: 488px;
+      width: 628px;
+    }
+    .favour-none-text{
+      font-size: 48px;
+      color: #404657;
+    }
+    .favour-none-text:nth-of-type(1){
+      margin-top: 50px;
+    }
+    .sync-logo{
+      margin: 214px 0 0 auto;
+      background-size: 100% 100%;
+      height: 244px;
+      width: 244px;
+    }
+    .sync-logo-bg{
+      animation: rotate 3s linear infinite;
+      position: absolute;
+      left: 50%;
+      margin: 214px 0 0 -122px;
+      background-size: 100% 100%;
+      height: 244px;
+      width: 244px;
+    }
+    @keyframes rotate{from{transform: rotate(0deg)}
+    to{transform: rotate(359deg)}
+}
+  }
+}

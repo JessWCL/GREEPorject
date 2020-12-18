@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>828402</mid>
+  <version>4.4</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","mode","TmrEn","StTmr","SchEn","SchTmr","Rice","Textre","StpRic","KpTpEn","KpTpTmr","ModeTmr","estate","estate2","Volt","estate3","estate4","MidType"]</statueJson>
+  <statueJson2>["Pow","mode","TmrEn","StTmr","SchEn","SchTmr","Rice","Textre","StpRic","KpTpEn","KpTpTmr","ModeTmr","estate","estate2","Volt","estate3","estate4","MidType"]</statueJson2>
+</device>

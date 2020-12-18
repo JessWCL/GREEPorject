@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>80260</mid>
+  <version>1.0</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["WorkState", "AlarmCancel", "AlarmTmrEnable", "AlarmTime"]</statueJson>
+  <statueJson2>["WorkState", "AlarmCancel", "AlarmTmrEnable", "AlarmTime"]</statueJson2>
+  <moduleVer>1</moduleVer>
+</device>

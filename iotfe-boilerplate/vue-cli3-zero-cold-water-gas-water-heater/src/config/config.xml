@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>829100</mid>
+  <version>1.8</version>
+  <moduleVer>1</moduleVer>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Mode","PreBoost","InWaterTemp","SetTemp","Cruise","ErrorCode1","ErrorCode2","ErrorCode3","JFerr","rssi","BurnState","CruiseState"]</statueJson>
+  <statueJson2>["Pow","Mode","PreBoost","InWaterTemp","SetTemp","Cruise","ErrorCode1","ErrorCode2","ErrorCode3","JFerr","rssi","BurnState","CruiseState"]</statueJson2>
+</device>

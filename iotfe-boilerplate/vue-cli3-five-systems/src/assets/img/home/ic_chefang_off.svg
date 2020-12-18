@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>撤防关闭</title>
+    <desc>Created with Sketch.</desc>
+    <g id="撤防关闭" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-3">
+            <circle id="椭圆形复制-24" fill="#FFFFFF" cx="50" cy="50" r="50"></circle>
+            <g id="盾牌-01复制-3" transform="translate(29.000000, 25.000000)" fill="#4DCDFF" fill-rule="nonzero">
+                <g id="编组">
+                    <path d="M22.75,0.85 L40.25,9.25 C41.3,9.95 42,11 42,12.4 L42,22.55 C42,25.7 41.3,28.5 40.25,31.65 C39.2,34.45 37.8,37.25 36.05,39.7 C34.3,42.15 25,50 21,50.85 C17,50 7.7,42.15 5.95,39.7 C4.2,37.25 2.8,34.8 1.75,31.65 C0.7,28.5 0,25.35 0,22.2 L0,12.4 C0,11 0.7,9.95 1.75,9.25 L19.25,0.85 C20.3,0.5 21.7,0.5 22.75,0.85 Z M21,4.7 L3.5,12.75 L3.5,22.2 C3.5,25 3.85,27.45 4.9,30.25 C5.95,32.7 7,35.15 8.75,37.25 C10.85,40.05 18.55,46.3 21,47 C23.45,46.3 31.15,40.05 33.25,37.25 C35,35.15 36.05,33.05 37.1,30.25 C38.15,27.45 38.5,25 38.5,22.2 L38.5,12.75 L21,4.7 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+        <g id="编组-2复制" transform="translate(43.000000, 44.000000)" stroke="#4DCDFF" stroke-linecap="round" stroke-width="3.7">
+            <path d="M0,0 L14,13" id="路径-5"></path>
+            <path d="M0,0 L14,13" id="路径-5复制" transform="translate(7.000000, 6.500000) scale(-1, 1) translate(-7.000000, -6.500000) "></path>
+        </g>
+    </g>
+</svg>

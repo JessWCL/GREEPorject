@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>setting_help_docs</mid>
+  <version>1.0</version>
+  <moduleVer>1</moduleVer>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>[]</statueJson>
+  <statueJson2>[]</statueJson2>
+</device>

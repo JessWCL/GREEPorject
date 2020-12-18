@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- <device>
+  <mid>13803</mid>
+  <version>2.2</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Dmod","Dwet","host","name","AllErr","TemSen", "DwatFul"]</statueJson>
+  <statueJson2>["Pow","Dwet","DwatSen","Dmod","WdSpd","Dfltr","DwatFul","AllErr","TemSen","Health","AppTimer"]</statueJson2>
+</device> -->
+<!-- <device>
+  <mid>13804</mid>
+  <version>1.2</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Dmod","Dwet","host","name","AllErr","TemSen", "DwatFul"]</statueJson>
+  <statueJson2>["Pow","Dwet","DwatSen","Dmod","WdSpd","Dfltr","DwatFul","AllErr","TemSen","Health","AppTimer"]</statueJson2>
+</device> -->
+<device>
+  <mid>13805</mid>
+  <version>1.0</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Dmod","Dwet","host","name","AllErr","TemSen", "DwatFul"]</statueJson>
+  <statueJson2>["Pow","Dmod","Dwet","WdSpd","Dfltr","DwatFul","Lig","SwUpDn","Health","Quiet","PM2P5","airQlt","DwatSen","ChildLock","AppTimer","AllErr"]</statueJson2>
+</device>

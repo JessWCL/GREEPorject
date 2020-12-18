@@ -1,0 +1,46 @@
+.box-bg-img{
+  position: relative;
+  height: 539px;
+  background: url(../img/box_detail.png) no-repeat;
+  background-size: 100% 100%;
+  .tips-img {
+    position: absolute;
+    background: url(../img/tips.png) no-repeat;  
+    background-size: 100% 100%;
+    width: 86px;
+    height: 52px;
+    margin-top: 130px;
+    .tips-text {
+     position: relative; 
+     text-align: center;
+     color:#9DC63A;
+    }
+  } 
+  .tips-img2 {
+    position: absolute;
+    background: url(../img/tips.png) no-repeat;  
+    background-size: 100% 100%;
+    width: 86px;
+    height: 52px;
+    margin-top: 385px;
+    .tips-text {
+     position: relative; 
+     text-align: center;
+     color:#9DC63A;
+    }
+  } 
+}
+.item-inner {
+  display: flex;
+}
+.list {
+  z-index: 1;
+  font-size: 0.31481rem;
+  margin: 0;
+}
+.extend-title {
+  font-size: 42px!important;
+}
+.edit-text {
+  width: 150px;
+}

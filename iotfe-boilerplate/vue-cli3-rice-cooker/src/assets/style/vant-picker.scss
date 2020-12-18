@@ -1,0 +1,47 @@
+.van-picker {
+  width: 50%;
+  background-color: initial;
+  .van-picker-column__item {
+    font-size: 1rem;
+    color: #d6d6d8;
+  }
+  .van-picker-column__item--selected {
+    color: #404657;
+  }
+  .van-picker__mask {
+    background-image: initial;
+  }
+  .van-picker__frame::after {
+    border: none;
+  }
+  .van-picker__mask::before {
+    display: block;
+    content: "小时";
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 0.4rem;
+    color: #494e5e;
+  }
+  .van-picker__mask::after {
+    display: block;
+    content: "分钟";
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    font-size: 0.4rem;
+    color: #494e5e;
+  }
+}
+
+.van-picker.appointment {
+  .van-picker__mask::before {
+    content: ":";
+    top: 34%;
+    left: 50%;
+    font-size: 1rem;
+  }
+  .van-picker__mask::after {
+    content: "";
+  }
+}

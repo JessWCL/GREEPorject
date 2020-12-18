@@ -1,0 +1,9 @@
+{
+  "wakeUp": "14345,1",
+  "smartIntelligence": 0,
+  "sleepScore": "0",
+  "wakeUpTime": "",
+  "sleepTime": "",
+  "sleep": "14253,1",
+  "allSleepDevices": "[{\"name\":\"床垫-左侧\",\"mac\":\"f4911e8f4bfe####left\"},{\"name\":\"床垫-右侧\",\"mac\":\"f4911e8f4bfe####right\"}]"
+}

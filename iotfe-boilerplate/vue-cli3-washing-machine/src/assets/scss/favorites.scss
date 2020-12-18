@@ -1,0 +1,83 @@
+.Favorites {
+  .page-main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    .gree-radio-list{
+      padding: 0;
+    }
+    .gree-cell-item-body{
+      padding: 0;
+    }
+    .bg {
+      position: relative;
+      height: 603px;
+      width: 100%;
+      margin: 3px 0;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+      .wash-mode {
+        position: absolute;
+        right: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 100px;
+        // font-family: 'Franklin Gothic Medium';
+        margin-top: 106px;
+        color: #fff;
+        text-align: center;
+      }
+
+      .wash-type {
+        position: absolute;
+        right: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 48px;
+        // font-family: 'Franklin Gothic Medium';
+        margin-top: 238px;
+        color: #fff;
+        text-align: center;
+      }
+
+      .start-img{
+        position: absolute;
+        right: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 308px;
+        height: 180px;
+        width: 180px;
+        background-size: 100% 100%;
+      }
+
+      .fav-check {
+        display: inline-block;
+        right: 60px;
+        position: absolute;
+        margin-top: 260px;
+        width: 57px;
+        height: 57px;
+
+        i {
+          font-size: 70px ;
+        }
+      }
+    }
+
+
+    .del-btn {
+      z-index: 100;
+      position: absolute;
+      bottom: 151px;
+      right: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 927px;
+      height: 144px;
+      font-size: 45px;
+      color: #fff;
+    }
+  }
+}

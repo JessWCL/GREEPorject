@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>828402</mid>
+  <version>4.4</version>
+  <moduleVer>1</moduleVer> <!-- 插件项目工程模板的版本 类型：int  0：iot旧模板（部分还在使用需要兼容的） 1：黎工iot模板-->
+  <uiVersion>1</uiVersion> <!-- UI 版本号 类型：int  1：新版插件页面 -->
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","mode","TmrEn","StTmr","SchEn","SchTmr","Rice","Textre","StpRic","KpTpEn","KpTpTmr","ModeTmr","estate","estate2","Volt","estate3","estate4","MidType"]</statueJson>
+  <statueJson2>["Pow","mode","TmrEn","StTmr","SchEn","SchTmr","Rice","Textre","StpRic","KpTpEn","KpTpTmr","ModeTmr","estate","estate2","Volt","estate3","estate4","MidType"]</statueJson2>
+</device>

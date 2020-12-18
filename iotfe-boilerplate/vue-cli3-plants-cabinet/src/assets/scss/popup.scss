@@ -1,0 +1,120 @@
+$animateInDuration: .3s; // 进入动画持续时间
+$animateOutDuration: .3s; // 离开动画持续时间
+
+.disabled {
+    opacity: 0.55;
+    pointer-events: none;
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9;
+}
+
+.popup-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+  color: #404657;
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  padding: 0;
+  padding-bottom: constant(safe-area-inset-bottom), 10px; /* 兼容 iOS < 11.2 */
+  padding-bottom: env(safe-area-inset-bottom), 10px; /* 兼容 iOS >= 11.2 */
+  .popup-header {
+    .pulldown {
+      padding-top: 20px;
+      height: auto;
+      width: 100%;
+      box-sizing: border-box;
+      // background-color: #fac;
+      text-align: center;
+      .pulldown-icon {
+        padding: 10px 40px;
+      }
+      .img {
+        width: 0.5rem;
+      }
+    }
+  }
+  .popup-items-group {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+    .popup-item {
+      list-style: none;
+      box-sizing: border-box;
+      width: 25%;
+      flex: 0 1 auto;
+      text-align: center;
+      margin-bottom: 20px;
+      .item-img {
+        display: block;
+        margin: 0 auto;
+        width: 180px;
+        // border: 1px solid rgba(0,0,0,.1);
+        border-radius: 100%;
+        margin-bottom: 10px;
+      }
+      .item-name {
+        position: relative;
+        font-size: 40px;
+        .moreBtn {
+          position: absolute;
+          bottom: 0;
+          display: inline-block;
+          width: 0;
+          height: 0;
+          padding: 0;
+          border: 15px solid #404657;
+          border-right: 0 solid transparent;
+          border-top: 15px solid transparent;
+          border-bottom: 15px solid transparent;
+          transform: rotate(45deg);
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+/* fade 动画 css */
+.fade-enter-active {
+  transition: opacity $animateInDuration ease;
+}
+.fade-leave-active {
+  transition: opacity $animateOutDuration ease;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+/* popup 动画 css */
+.popup-enter-active {
+  transition: transform $animateInDuration;
+}
+.popup-leave-active {
+  transition: transform $animateOutDuration;
+}
+.popup-enter {
+  transform: translateY(100%);
+}
+.popup-leave-to {
+  transform: translateY(100%);
+}
+
+// ---

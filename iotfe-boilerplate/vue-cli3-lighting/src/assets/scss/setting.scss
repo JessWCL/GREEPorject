@@ -1,0 +1,57 @@
+.page-home {
+  $headerHeight: 114px;
+  .page-header-setting {
+    position: relative;
+    height: $headerHeight;
+  }
+  .page-main-setting {
+    height: calc(100% - #{$headerHeight});
+    background-color: #fff;
+    h1 {
+      padding-top: 90px;
+      padding-left: 60px;
+      font-size: 50px;
+    }
+    .colorBtns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .colorBtn {
+        width: 400px;
+        height: 400px;
+        transform: scale(0.5, 0.5);
+        border-radius: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 100px;
+        box-sizing: border-box;
+      }
+    }
+    .brights {
+      padding-top: 100px;
+      @extend .colorBtns;
+      .brightBtn {
+        @extend .colorBtn;
+        width: 210px;
+        height: 210px;
+        transform: scale(1, 1);
+        font-size: 60px;
+      }
+    }
+  }
+}
+.borderThick {
+  border-width: thick !important;
+}
+.borderThin {
+  border-width: thin !important;
+}
+.borderMedium {
+  border-width: Medium !important;
+}
+.borderContent {
+  background: darkgray;
+  border-width: thin !important;
+}

@@ -1,0 +1,58 @@
+.filter-block {
+  margin-top: 36px;
+  padding-bottom: 20px;
+  width: 100vw;
+  color: #fff;
+  .card {
+    display: flex;
+    flex-direction: column;
+    .header-describle {
+      margin: 40px 0 0 52px;
+      font-size: 42px;
+    }
+    .canvas-block {
+      position: relative;
+      text-align: center;
+      margin-top: 21px;
+      width: 100%;
+      .filter-content {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        .wave-tips,
+        .wave-val {
+          position: absolute;
+          top: 138px;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 50px;
+        }
+        .wave-val {
+          top: 193px;
+          .val {
+            font-size: 130px;
+            &:after {
+              content: ' %';
+              position: absolute;
+              bottom: 15%;
+              font-size: 60px;
+            }
+          }
+        }
+      }
+    }
+    .foot-slot {
+      text-align: text;
+      margin: 0 auto 22px;
+      font-size: 46px;
+    }
+  }
+  .reset {
+    line-height: 120px;
+    text-align: center;
+    font-size: 46px;
+    color: #404657;
+    background-color: #fff;
+  }
+}

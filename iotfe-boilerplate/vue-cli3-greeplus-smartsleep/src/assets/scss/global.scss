@@ -1,0 +1,30 @@
+@import 'offline';
+
+// 公共
+@font-face {
+  font-family: FZ;
+  src: url('../.././assets/font/FZ.TTF');
+}
+
+$white06: rgba(255, 255, 255, 0.6);
+$white07: rgba(255, 255, 255, 0.7);
+$white09: rgba(255, 255, 255, 0.9);
+$font42Color: #404657;
+$font33Color: #40465748;
+$font42: 42px;
+$font36: 36px;
+$blue: #00aeff;
+$margin-left: 53px;
+$background: #f6f6f6;
+
+.hidden {
+  display: none !important;
+}
+
+.gree-progress-dashboard .gree-progress__text {
+  font-family: FZ !important;
+  font-size: 200px !important;
+  color: white !important;
+  top: 220px;
+  margin-top: 18px !important;
+}

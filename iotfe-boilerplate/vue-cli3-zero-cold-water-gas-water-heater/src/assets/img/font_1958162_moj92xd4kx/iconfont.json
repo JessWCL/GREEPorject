@@ -1,0 +1,30 @@
+{
+  "id": "1958162",
+  "name": "零冷水燃气热水器插件图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16058714",
+      "name": "开关",
+      "font_class": "kaiguan",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "16058711",
+      "name": "增压",
+      "font_class": "zengya",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "16058712",
+      "name": "零冷水",
+      "font_class": "linglengshui",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    }
+  ]
+}

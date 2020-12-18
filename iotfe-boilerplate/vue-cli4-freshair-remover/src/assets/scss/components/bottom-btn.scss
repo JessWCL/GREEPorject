@@ -1,0 +1,86 @@
+.bottom-btn {
+  height: 231px !important;
+  bottom: 0 !important;
+  background-image: url('../img/bottom_bg.png');
+
+  .toolbar-inner {
+    padding: 52px 86px 50px 93px !important;
+    display: flex;
+    align-items: center;
+    // 开关
+    .bottom-pow-view {
+      position: relative;
+      width: 129px;
+      height: 129px;
+      border-radius: 50%;
+      background-size: 100% 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      span {
+        color: #fff;
+        font-size: 65px;
+      }
+      img {
+        position: absolute;
+        top: 25%;
+        width: 65px;
+        height: 72px;
+        background-size: 100% 100%;
+      }
+      .ripple {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-height: 90px;
+        min-width: 90px;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 1.5px solid;
+        border-color: #f4f9fc;
+        animation: rippling 1.2s ease infinite;
+      }
+    }
+    // 其他功能
+    .bottom-fun-view {
+      margin-left: 61px;
+      flex: 1;
+      display: flex;
+      justify-content: space-around;
+      .bottom-fun {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: #404657;
+        img {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          height: 58px;
+          width: 66px;
+          background-size: 100% 100%;
+        }
+        span {
+          font-size: 57px;
+        }
+        p {
+          font-size: 42px;
+        }
+      }
+    }
+  }
+  @keyframes rippling {
+    0% {
+      min-height: 129px;
+      min-width: 129px;
+      border-color: #97ccf5;
+    }
+    100% {
+      min-height: 200px;
+      min-width: 200px;
+      border-color: transparent;
+    }
+  }
+}

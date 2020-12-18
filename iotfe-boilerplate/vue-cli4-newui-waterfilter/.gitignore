@@ -1,0 +1,39 @@
+.DS_Store
+node_modules
+/dist
+/gree-ui
+
+# local env files
+.env.local
+.env.*.local
+
+# local cordova api files
+/public/static/font
+/public/static/lib
+/public/static/plugin
+/public/static/.eslintrc.js
+/public/static/.gitignore
+/public/static/globle.d.ts
+/public/static/package.json
+/public/static/README.md
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# lock
+package-lock.json
+yarn.lock
+
+# other progrem
+vue-cli4-water-softeners

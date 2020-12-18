@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="112px" viewBox="0 0 128 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>编组 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.402644231" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="五大系统（深背景）" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="22五大系统-04能源" transform="translate(-1597.000000, -569.000000)">
+            <g id="编组-5" transform="translate(1598.000000, 569.000000)">
+                <path d="M2.17707481,18.1441178 C1.9635641,18.0067606 1.7354897,17.8008022 1.4928516,17.5262426 C0.515417315,16.5474035 0,15.5299851 0,14.4858421 C0,6.7616748 28.2060608,0.5 63,0.5 C97.7939392,0.5 126,6.7616748 126,14.4858421 C126,15.5299851 125.484583,16.5474035 124.507148,17.5262426 C124.26451,17.8008022 124.036436,18.0067606 123.822925,18.1441178 C123.123376,18.7187054 122.263022,19.2786302 121.253245,19.8213657 C90.4946713,40.194137 75.1153846,61.3199793 75.1153846,83.1988925 L74.6666667,112.5 L50.4358974,112.5 L50.8846154,83.1988925 C50.8846154,61.3199793 35.5053287,40.194137 4.74675526,19.8213657 C3.7369782,19.2786302 2.87662437,18.7187054 2.17707481,18.1441178 Z" id="路径" fill="url(#linearGradient-1)"></path>
+                <ellipse id="椭圆形复制-3" stroke="#FFFFFF" stroke-width="2" opacity="0.800000012" cx="63" cy="15.5" rx="63" ry="14"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

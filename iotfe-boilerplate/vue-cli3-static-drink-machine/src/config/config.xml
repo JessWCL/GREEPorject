@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>828304</mid>
+  <version>1.2</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["WorkStatus","ErrorCode1","ErrorCode2","JFerr"]</statueJson>
+  <statueJson2>["ErrorCode1","ErrorCode2","LifeTimeFilter1","LifeTimeFilter2","LifeTimeFilter3","LifeTimeFilter4","TotalPureWater","FilterKind1","FilterKind2","FilterKind3","FilterKind4","FilterWarning1","FilterWarning2","FilterWarning3","FilterWarning4","WorkStatus","LifeFilterDays1","LifeFilterDays2","LifeFilterDays3","LifeFilterDays4","JFerr"]</statueJson2>
+</device>

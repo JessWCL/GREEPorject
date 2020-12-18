@@ -1,0 +1,62 @@
+.page-appointment {
+  .page-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: calc(1.17593rem + env(safe-area-inset-top)) !important;
+    .gree-header {
+      top: calc(0px + env(safe-area-inset-top));
+    }
+    #TimerSelector {
+      width: 100%;
+      .mbsc-sc-lbl {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        color: #00aeff;
+        font-size: 42px;
+        white-space: nowrap;
+      }
+    }
+  
+    .mbsc-ios .mbsc-sc-itm {
+      font-family: 'appleUltralight','SF UI Display Ultralight';
+      color: #00aeff;
+      font-size: 190px;
+    }
+  
+    .picker-unit {
+      position: absolute;
+      top: 520px;
+      left: 60%;
+      color: #00aeff;
+      font-size: 42px;
+      text-align: center;
+      height: 270px;
+    }
+  
+    .row {
+      flex: 1;
+      position: relative;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      .col {
+        color: #00aeff;
+        font-size: 75px;
+        // margin-top: 130px;
+      }
+    }
+  
+    .gree-action-bar {
+      .gree-button {
+        color: #ff0202;
+        font-size: 45px;
+        background-color: transparent;
+        border: none;
+        &::after {
+          border-color: transparent;
+        }
+      }
+    }
+  }
+}

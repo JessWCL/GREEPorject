@@ -1,0 +1,172 @@
+@import 'home';
+@import 'circle-slider';
+@import 'offline';
+@import 'box';
+@import 'filter';
+@import 'detail';
+@import 'box-detail';
+@import 'components/bottom-btn';
+@import 'components/cailbrationline';
+@import 'components/filter-cirlce';
+
+@font-face {
+  font-family: 'appleLight';
+  src: url('../font/SF-UI-Display-Light.otf');
+}
+
+@font-face {
+  font-family: 'appleUltralight';
+  src: url('../font/SF-UI-Display-Ultralight.otf');
+}
+@font-face {
+  font-family: 'iconfont'; /* project id 1254715 */
+  src: url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.woff') format('woff');
+}
+
+.set-active {
+  color: #5fb79e !important;
+}
+.set-hide {
+  display: none !important;
+}
+.set-gray {
+  opacity: 0.5 !important;
+}
+.set-visiblity {
+  visibility: hidden !important;
+}
+
+.gree-dialog-text {
+  flex-direction: column !important;
+  align-items: center;
+}
+
+/* Popup */
+.gree-popup {
+  .popup-bottom {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 64px;
+    border-radius: 0;
+    background-color: #fff;
+    box-shadow: #dbdbdb 0 0 4px 0;
+    .arrow-down {
+      text-align: center;
+      position: relative;
+      margin: 30px 0 50px;
+      font-size: 50px;
+      img {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 30px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .row {
+      .col {
+        padding-top: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // .select-mode-bg {
+        //   background-image: url('../img/pow-on.png');
+        //   background-size: 100% 100%;
+        //   span {
+        //     color: #fff;
+        //   }
+        // }
+        // .unselec-mode-border {
+        //   border: 1px solid #4c4c4c;
+        //   span {
+        //     color: #404657;
+        //   }
+        // }
+        img {
+          width: 124px;
+          height: 124px;
+        }
+        .circle {
+          width: 125px;
+          height: 125px;
+
+          span {
+            font-size: 65px;
+            // color: #404657;
+          }
+        }
+        span {
+          font-size: 46px;
+          padding-top: 22px;
+          position: relative;
+        }
+        .icon-more {
+          position: absolute;
+          margin-left: 10px;
+          bottom: 0;
+          transform: translateY(-70%);
+          width: 20px;
+          height: 20px;
+          vertical-align: text-bottom;
+        }
+      }
+    }
+  }
+}
+
+// 不知道是需要改什么东西
+// .page {
+//   .list {
+//     margin: 0;
+//     ul {
+//       li {
+//         .item-content {
+//           min-height: 122px;
+//           padding-left: 0;
+//           .item-inner {
+//             min-height: 122px;
+//             padding-left: 55px;
+//             .item-title,
+//             .item-after {
+//               font-size: 42px;
+//             }
+//             .item-after {
+//               color: #404657;
+//             }
+//           }
+//         }
+//         &.item-time-before {
+//           .item-title {
+//             flex-grow: 1;
+//           }
+//           .item-after {
+//             flex-basis: 50%;
+//             white-space: normal;
+//           }
+//         }
+//       }
+//     }
+//     &.last {
+//       margin-top: 280px;
+//       ul {
+//         li {
+//           .item-content {
+//             .item-inner {
+//               .item-title {
+//                 width: 100%;
+//                 text-align: center;
+//                 span {
+//                   color: #ff0101;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

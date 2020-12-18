@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no,address=no,email=no" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover"
+    />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title>vue-cli3-zero-cold-water-gas-water-heater</title>
+    <% if (NODE_ENV === 'testing') { %>
+    <script>
+      function trigger() {
+        var re = /OS ((\d{1,2})_\d{1,2}||(\d{1,2})_\d{1,2}_\d{1,2}) like Mac OS X/i;
+        var result = re.exec(window.navigator.userAgent);
+        var ver = result && result[1] && result[1].substr(0, 2);
+        return parseInt(ver) >= 8;
+      }
+      var script = document.createElement("script");
+      if (trigger()) {
+        // script.src = '//web4-1300100653.cos.ap-guangzhou.myqcloud.com/ios/cordova.js';
+        script.src = "<%= BASE_URL %>static/plugin/ios/cordova.js";
+      } else {
+        // script.src = '//web4-1300100653.cos.ap-guangzhou.myqcloud.com/cordova.js';
+        script.src = "<%= BASE_URL %>static/plugin/cordova.js";
+      }
+      document.head.appendChild(script);
+    </script>
+    <!-- <script src="//web4-1300100653.cos.ap-guangzhou.myqcloud.com/cordovainit.js"></script> -->
+    <script src="<%= BASE_URL %>static/lib/cordovainit.js"></script>
+    <style>
+      @font-face {
+        font-family: "appleUltralight";
+        src: url("<%= BASE_URL %>static/font/SF-UI-Display-Ultralight.otf");
+      }
+      @font-face {
+        font-family: "appleLight";
+        src: url("<%= BASE_URL %>static/font/SF-UI-Display-Light.otf");
+      }
+      @font-face {
+        font-family: "appleRegular";
+        src: url("<%= BASE_URL %>static/font/SF-UI-Display-Regular.otf");
+      }
+      @font-face {
+        font-family: "appleThin";
+        src: url("<%= BASE_URL %>static/font/SF-UI-Display-Thin.otf");
+      }
+      @font-face {
+        font-family: "FZLTHJ";
+        src: url("<%= BASE_URL %>static/font/FZLTHJ.ttf");
+      }
+      @font-face {
+        font-family: "Roboto-Light";
+        src: url("<%= BASE_URL %>static/font/Roboto-Light.ttf");
+      }
+    </style>
+    <% } else if (NODE_ENV === 'development') { %>
+    <style>
+      @font-face {
+        font-family: "appleUltralight";
+        src: url("<%= BASE_URL %>static/font/SF-UI-Display-Ultralight.otf");
+      }
+      @font-face {
+        font-family: "appleLight";
+        src: url("<%= BASE_URL %>static/font/SF-UI-Display-Light.otf");
+      }
+      @font-face {
+        font-family: "appleRegular";
+        src: url("<%= BASE_URL %>static/font/SF-UI-Display-Regular.otf");
+      }
+      @font-face {
+        font-family: "appleThin";
+        src: url("<%= BASE_URL %>static/font/SF-UI-Display-Thin.otf");
+      }
+      @font-face {
+        font-family: "FZLTHJ";
+        src: url("<%= BASE_URL %>static/font/FZLTHJ.ttf");
+      }
+      @font-face {
+        font-family: "Roboto-Light";
+        src: url("<%= BASE_URL %>static/font/Roboto-Light.ttf");
+      }
+    </style>
+    <% } else if (NODE_ENV === 'production') { %>
+    <script src="./../../cordova.js"></script>
+    <script src="./js/cordovainit.js"></script>
+    <style>
+      @font-face {
+        font-family: "appleUltralight";
+        src: url("./../../font/SF-UI-Display-Ultralight.otf");
+      }
+      @font-face {
+        font-family: "appleLight";
+        src: url("./../../font/SF-UI-Display-Light.otf");
+      }
+      @font-face {
+        font-family: "appleRegular";
+        src: url("./../../font/SF-UI-Display-Regular.otf");
+      }
+      @font-face {
+        font-family: "appleThin";
+        src: url("./../../font/SF-UI-Display-Thin.otf");
+      }
+      @font-face {
+        font-family: "FZLTHJ";
+        src: url("./../../font/FZLTHJ.ttf");
+      }
+      @font-face {
+        font-family: "Roboto-Light";
+        src: url("./../../font/Roboto-Light.ttf");
+      }
+    </style>
+    <% } %>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but vue-cli3-bladeless-fan doesn't work properly without
+        JavaScript enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

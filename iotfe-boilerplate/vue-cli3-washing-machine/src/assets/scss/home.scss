@@ -1,0 +1,314 @@
+.page-home {
+  .gree-tab-bar {
+    padding: 0;
+    background-color: #6c839f;
+    .gree-tab-bar-list {
+      .gree-tab-bar-item {
+        color: #fff;
+        font-size: 45px;
+        min-height: 120px;
+        flex: 1;
+
+        &:not(.is-active)::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: auto;
+          bottom: auto;
+          width: 200%;
+          height: 200%;
+          border-right: 1px solid #fff;
+          box-sizing: border-box;
+          transform-origin: 0 0;
+          transform: scale(0.5);
+          z-index: 2;
+        }
+
+        &:last-child {
+          border: none;
+        }
+
+        &.is-active {
+          color: #fff;
+          background-color: #4bb6f7;
+        }
+      }
+    }
+  }
+
+  // 开始按钮
+  .start-or-timer {
+    position: relative;
+    .gree-notice-bar-left {
+      color: #4fb8cf;
+    }
+    // 开始按钮
+    .gree-button-stup {
+      position: absolute;
+      top: 210px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      height: 172px;
+      font-size: 65px;
+      width: 520px;
+
+      &.round:after {
+        border-radius: 172px !important;
+      }
+
+      &.default.round {
+        max-width: 520px;
+      }
+    }
+  }
+
+  .popup-bottom {
+    .col-25 {
+      margin-top: 45px;
+    }
+    img {
+      width: 151px;
+    }
+  }
+  // 滑轮样式
+  .mbsc-mobiscroll .mbsc-fr-w {
+    min-width: 250px;
+  }
+
+  // .special-list .mbsc-mobiscroll .mbsc-fr-w {
+  //   min-width: 200px;
+  // }
+
+  .mbsc-mobiscroll .mbsc-sc-lbl-v .mbsc-sc-whl-w {
+    margin-top: 0;
+    // min-width: 40px !important;
+  }
+
+  .mbsc-mobiscroll .mbsc-sc-itm {
+    font-size: 60px;
+  }
+  .small-value {
+    font-size: 10px !important;
+  }
+  .mbsc-fr-w {
+    color: #fff;
+    background-color: #1fa2bf;
+    opacity: 0.8;
+  }
+  .mbsc-bg {
+    background-color: #1fa2bf;
+    opacity: 0.8;
+  }
+  .mbsc-sc-itm.mbsc-btn-e.mbsc-sc-itm-sel {
+    color: #fdcd4f;
+  }
+  .mbsc-mobiscroll .mbsc-sc-whl-gr {
+    padding: 0px;
+  }
+  // .mbsc-mobiscroll .mbsc-sc-whl-l{
+  //   border: 0;
+  // }
+
+  .re-ben-pow-off {
+    .off-mask {
+      color: white !important;
+    }
+  }
+}
+
+#powoff-notice-bar {
+  z-index: 10;
+  position: absolute;
+  top: 1.17593rem;
+  width: 100%;
+  background-color: rgba($color: #fff, $alpha: 0.6) !important;
+  .gree-notice-bar-left {
+    color: #409EFF;
+  }
+}
+// 底下选项
+.page-startup,
+.page-home {
+  .toolbar.toolbar-bottom {
+    position: absolute;
+    bottom: 80px !important;
+    width: 100%;
+    height: 260px;
+
+    .toolbar-inner {
+      background-color: #f4f4f4;
+
+      .row {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// 模式选择 与 启动页公用此样式
+.page-mode-e {
+  // 热泵 E 项目要使用
+  height: 850px;
+}
+.page-mode {
+  // 纤静 智铂使用
+  height: 1010px;
+  // height: 920px;
+}
+
+// 屏幕高度低于 641 时, 背景图缩小
+@media screen and (max-device-height: 769px) {
+  .page-mode {
+    // border: 1px solid red;
+    height: 920px;
+  }
+}
+
+.page-mode-e,
+.page-mode {
+  position: relative;
+  background-size: 100% 100%;
+  .mode-favorites {
+    position: absolute;
+    right: 40px;
+    top: 167px;
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    background-image: url('../img/favorites-unselect.png');
+    &.active {
+      background-image: url('../img/favorites-select.png');
+    }
+  }
+
+  .mode-time-e,
+  .mode-time,
+  .mode-text {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 192px;
+    color: #fff;
+  }
+  .mode-time-e {
+    top: 180px;
+  }
+  .mode-time-e,
+  .mode-time {
+    font-weight: 100;
+  }
+  .mode-text {
+    text-align: center;
+    font-size: 150px;
+    .weighing-text {
+      font-size: 30px;
+    }
+  }
+
+  .mode-name-e,
+  .mode-name {
+    position: absolute;
+    top: 517px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 65px;
+    color: #fff;
+  }
+  .mode-name-e {
+    top: 450px;
+  }
+  .data-list-startup {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+// 参数选择
+.data-list-div-div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  .data-list-div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    .data-list-arrow,
+    .data-list {
+      padding: 0 2% 0 2%;
+      width: 96%;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .arrow-block {
+        width: 125px;
+        text-align: center;
+      }
+      .data-block {
+        width: 200px;
+      }
+      .list-right {
+        // position: absolute;
+        // right: 30px;
+      }
+      .list-left {
+        position: absolute;
+        left: 50px;
+      }
+      img {
+        height: 70px;
+        width: 30px;
+      }
+
+      .timer-elector {
+        position: absolute;
+        bottom: 70px;
+        width: 200px;
+      }
+      // .col-20,
+      // .col-50,
+      // .col-100 {
+      p {
+        color: #fff;
+        font-size: 42px;
+        white-space: nowrap;
+        width: auto;
+      }
+      .protocol-value {
+        font-size: 65px;
+        width: 250px;
+        font-weight: 100;
+      }
+      .protocol-unit {
+        font-size: 32px;
+        font-weight: 100;
+      }
+      .protocol-name {
+        font-size: 42px;
+        width: 250px;
+        height: 50px;
+        padding-bottom: 20px;
+      }
+      // }
+    }
+    .data-list-arrow {
+      padding: 0;
+      width: 100%;
+    }
+    // 故障提示框
+    .notice-bar {
+      width: 100%;
+      background-color: rgba($color: #000000, $alpha: 0.3);
+      .gree-notice-bar-content {
+        color: white;
+      }
+    }
+  }
+}

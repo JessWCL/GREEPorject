@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="50px" viewBox="0 0 57 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>编组 5复制</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.402644231" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="五大系统（深背景）" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="22五大系统-01" transform="translate(-449.000000, -841.000000)">
+            <g id="编组-5复制" transform="translate(450.000000, 841.000000)">
+                <path d="M0.950310433,8.02837071 C0.857111313,7.9675932 0.757555026,7.87646116 0.651641574,7.75497459 C0.224983749,7.32185994 0,6.8716748 0,6.40966465 C0,2.99189151 12.3121694,0.221238938 27.5,0.221238938 C42.6878306,0.221238938 55,2.99189151 55,6.40966465 C55,6.8716748 54.7750163,7.32185994 54.3483584,7.75497459 C54.242445,7.87646116 54.1428887,7.9675932 54.0496896,8.02837071 C53.7443306,8.28261301 53.3687794,8.53036736 52.9280037,8.77051581 C39.5016422,17.7850164 32.7884615,27.1327342 32.7884615,36.8136693 L32.5925926,49.7787611 L22.0156695,49.7787611 L22.2115385,36.8136693 C22.2115385,27.1327342 15.4983578,17.7850164 2.07199634,8.77051581 C1.63122064,8.53036736 1.25566937,8.28261301 0.950310433,8.02837071 Z" id="路径" fill="url(#linearGradient-1)"></path>
+                <ellipse id="椭圆形复制-3" stroke="#FFFFFF" stroke-width="0.88" opacity="0.800000012" cx="27.5" cy="6.85840708" rx="27.5" ry="6.19469027"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

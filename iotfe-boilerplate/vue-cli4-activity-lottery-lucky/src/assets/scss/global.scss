@@ -1,0 +1,203 @@
+@import 'mixins';
+@import 'home';
+
+$text-color: #404657 !default;
+
+.hidden {
+  display: none !important;
+}
+
+.gree-popup-activity {
+  .gree-popup-mask {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .gree-icon {
+    &.gree-popup-activity-close {
+      width: 102px;
+      height: 102px;
+      @include background-image(url(../img/button_close.png));
+      @include mt(58px);
+      &::before {
+        display: none;
+      }
+    }
+  }
+  .gree-popup-activity-content {
+    width: 979px;
+    .no-prize {
+      width: 978px;
+      height: 1078px;
+      @include background-image(url(../img/no-prize.png));
+    }
+    .dialog {
+      overflow: hidden;
+      &.rule-prize,
+      &.empty-prize,
+      &.obtain-prize,
+      &.list-prize {
+        height: 1080px;
+        @include border-radius(15px);
+        .dialog-header {
+          width: 100%;
+          height: 719px;
+          .dialog-title {
+            color: #fff;
+            font-size: 56px;
+            text-align: center;
+            @include pt(104px);
+          }
+          .gree-image {
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            img {
+              width: 433px;
+              height: 433px;
+            }
+          }
+        }
+        .dialog-body {
+          color: $text-color;
+          font-size: 47px;
+          text-align: center;
+          background: #fff;
+          @include p(36px 0 63px);
+          .body-content {
+            @include mb(40px);
+          }
+          .gree-button {
+            width: 720px;
+            height: 104px;
+            line-height: 104px;
+            background: #f1cf39;
+            border: none;
+          }
+        }
+      }
+      &.rule-prize {
+        background: #ebebeb;
+        .dialog-header {
+          height: 209px;
+          .dialog-title {
+            color: $text-color;
+            font-size: 47px;
+            @include pt(81px);
+          }
+        }
+        .dialog-body {
+          background: #ebebeb;
+          color: $text-color;
+          font-size: 36px;
+          line-height: 1.7;
+          height: 780px;
+          margin: 0 auto;
+          @include p(0 55px);
+          overflow-y: auto;
+          text-align: justify;
+          -webkit-overflow-scrolling: touch;
+          box-sizing: border-box;
+        }
+      }
+      &.empty-prize {
+        .dialog-header {
+          @include background-image(url(../img/noprize-bg.png));
+        }
+        .dialog-body {
+          @include p(0);
+          width: 100%;
+          height: 360px;
+          line-height: 360px;
+        }
+      }
+      &.obtain-prize {
+        .dialog-header {
+          @include background-image(url(../img/prize-bg.png));
+          .dialog-title {
+            color: $text-color;
+          }
+        }
+      }
+      &.list-prize {
+        background: #ebebeb;
+        @include p(28px 12px);
+        .list {
+          ul {
+            background: transparent;
+            li {
+              background: #f1f1f1;
+              @include mb(28px);
+              .item-content {
+                min-height: 310px;
+                @include pl(11px);
+                .gree-image {
+                  img {
+                    width: 252px;
+                    height: 252px;
+                  }
+                }
+                .item-media + .item-inner {
+                  @include ml(55px);
+                  @include pt(39px);
+                  @include pr(25px);
+                  .item-title-row {
+                    &::before {
+                      display: none;
+                    }
+                    .item-title {
+                      font-size: 47px;
+                    }
+                    .item-after {
+                      .gree-button {
+                        position: absolute;
+                        right: 0;
+                        top: 75px;
+                        color: #fff;
+                        font-size: 38px;
+                        @include border-radius(8px);
+                        background-color: #b9b9b9;
+                        &.gree-button--mini {
+                          min-width: 120px;
+                        }
+                      }
+                    }
+                  }
+                  .item-subtitle,
+                  .item-text {
+                    color: #989898;
+                    font-size: 34px;
+                  }
+                  .item-subtitle {
+                    max-width: 80%;
+                    @include mt(33px);
+                  }
+                  .item-text {
+                    @include mt(57px);
+                    span {
+                      display: block;
+                      position: absolute;
+                      top: 0;
+                      right: 0;
+                      text-align: center;
+                      color: $text-color;
+                      font-size: 36px;
+                      @include pr(38px);
+                      .more-icon {
+                        display: inline-block;
+                        width: 16px;
+                        height: 29px;
+                        @include background-image(url(../img/arrow-dark.png));
+                        position: absolute;
+                        right: 0;
+                        top: 7px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

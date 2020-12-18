@@ -1,0 +1,8 @@
+.idea
+/node_modules/*
+gree-ui/*
+dist/*
+**/*.spec.*
+src/assets/js/flexible.js
+public/mobiscroll/*
+../static/*

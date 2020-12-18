@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<device>
+    <mid>828902</mid>
+    <version>1.5</version>
+    <!-- 插件项目工程模板的版本 0：iot旧模板（部分还在使用需要兼容的）1：黎工iot模板-->
+    <moduleVer>1</moduleVer>
+    <!-- 初始化加载H5的Loading, 0:无 1:透明底Loading 无：默认Loading -->
+    <finishLoad>1</finishLoad>
+    <iconpath>/images/icon.png</iconpath>
+    <iconpath2>/images/iconGroup.png</iconpath2>
+    <statueJson>["Pow","Wash","WashDone","WorkStatus","PauseStart","Mod","LayerWash","Dry","RmTmrHour","RmTmrMin","TmrOn","estate1","estate2","TmrStatus","TmrHour","TmrMin","Purifier","PurifierTime","Disinfect","JFerr","Lighting","Lock"]</statueJson>
+    <statueJson2>["Pow","Wash","WashDone","WorkStatus","PauseStart","Mod","LayerWash","Dry","RmTmrHour","RmTmrMin","TmrOn","estate1","estate2","TmrStatus","TmrHour","TmrMin","Purifier","PurifierTime","Disinfect","JFerr","Lighting","Lock","MidType"]</statueJson2>
+    <build>0</build>
+</device>

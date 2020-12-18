@@ -1,0 +1,23 @@
+$awake: #ffd33b;
+$light-sleep: #72b0fe;
+$deep-sleep: #008def;
+$REM: #7be3e1;
+$leave: #324ffe;
+
+@mixin stage-bg-color {
+  &.awake {
+    background-color: $awake;
+  }
+  &.light-sleep {
+    background-color: $light-sleep;
+  }
+  &.deep-sleep {
+    background-color: $deep-sleep;
+  }
+  &.REM {
+    background-color: $REM;
+  }
+  &.leave {
+    background-color: $leave;
+  }
+}

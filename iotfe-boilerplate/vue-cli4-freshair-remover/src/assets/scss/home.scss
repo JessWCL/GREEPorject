@@ -1,0 +1,201 @@
+// 这部分是控制部分
+.page-home {
+  background-color: #fff;
+  .page-main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 1047px;
+    max-height: 1047px;
+    background-color: transparent;
+    &.grayscale {
+      // filter: grayscale(100%);
+      pointer-events: none;
+    }
+    .iro__slider {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+  .block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 250px 50px 0;
+    padding: 0;
+    .vue-slider {
+      .vue-slider-rail {
+        background-color: rgba(255, 186, 0, 0.2);
+      }
+      .vue-slider-process {
+        background-color: #ffba00;
+      }
+      .vue-slider-dot-tooltip {
+        .vue-slider-dot-tooltip-inner {
+          border: none;
+          background-color: transparent;
+          .vue-slider-dot-tooltip-text {
+            color: #404657;
+            font-size: 45px;
+          }
+        }
+      }
+      .gree-slider-bar {
+        height: 15px;
+        border-radius: 15px;
+        background-color: #ffba00;
+      }
+      .gree-slider-handle {
+        top: 13px;
+        .gree-slider-handle-dot {
+          width: 40px;
+          height: 40px;
+          background-color: #ffba00;
+        }
+        .gree-slider-label {
+          color: #404657;
+          font-size: 45px;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.page-home {
+  background-size: 100% 100%;
+  .page-content {
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    .gree-header {
+      background-color: transparent;
+      background-image: none;
+      .gree-header-title {
+        .gree-icon {
+          &:nth-child(1) {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          &:nth-child(2) {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 50px;
+          }
+        }
+      }
+    }
+    .gree-tab-bar {
+      background-color: transparent;
+      .gree-tab-bar-item {
+        font-size: 45px;
+        &.is-active {
+          color: #5eb79d;
+        }
+      }
+      .gree-tab-bar-ink {
+        background-color: #5eb79d;
+        height: 2px;
+      }
+    }
+    .blank-block {
+      height: 145px;
+    }
+    .icons {
+      margin-top: 25px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      .col {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: auto;
+        max-width: 80%;
+        .mini-icon {
+          font-size: 56px;
+          width: 56px;
+          margin: 0 37px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+.block {
+  .row {
+    width: 33.33333333%;
+    margin: 0 auto;
+    .col {
+      text-align: center;
+    }
+  }
+}
+
+.gree-dialog-content {
+  width: 964px !important;
+}
+
+.toolbar {
+  height: 320px !important;
+  // background-color: linear-gradient(direction, #ffffff, #c8edeb);
+  .toolbar-inner {
+    // background: linear-gradient(#ffffff, #c8edeb);
+    .row {
+      width: 100%;
+      text-align: center;
+      padding: 0 20px;
+      justify-content: flex-start;
+      .circle {
+        width: 112px;
+        height: 112px;
+        // border: 2px solid hsla(224, 15%, 30%, 0.3);
+        // box-shadow: none;
+        background: transparent;
+        .cl-icon-pow:before {
+          content: '\E646';
+        }
+        .cl-icon-func:before {
+          content: '\E647';
+        }
+      }
+      h3 {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+.pow-off-bg {
+  z-index: 5;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 300px;
+  width: 637px;
+  height: 637px;
+  line-height: 637px;
+  border-radius: 50%;
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(#d4d8d9, #bac0c1);
+  background-size: cover;
+}

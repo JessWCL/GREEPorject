@@ -1,0 +1,224 @@
+$tabItemHeight: 127px;
+$statusLabelHeight: 50px;
+.page-home {
+  .page-header {
+    position: relative;
+    width: 100%;
+    height: 669px;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    .gree-header {
+      /deep/ .gree-header-right {
+        a {
+          color: #404657;
+        }
+      }
+      /deep/ .gree-icon {
+        &.icon-font {
+          &::before {
+            color: #404657;
+          }
+        }
+      }
+      &.transparent {
+        /deep/ .gree-header-right {
+          a {
+            color: #fff;
+          }
+        }
+        /deep/ .gree-icon {
+          &.icon-font {
+            &::before {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+    .header-content {
+      padding-top: 1.17593rem;
+      height: 100%;
+      box-sizing: border-box;
+      position: relative;
+      .tab-bar {
+        display: flex;
+        justify-content: space-between;
+        font-size: 45px;
+        height: 127px;
+        line-height: 127px;
+        .tab-item {
+          width: 33%;
+          height: $tabItemHeight;
+          line-height: $tabItemHeight;
+          text-align: center;
+          color: #fff;
+          background-color: rgba($color: #ffffff, $alpha: 0.1);
+          &:first-child {
+            &.active {
+              background-color: #8AB305;
+            }
+          }
+          &:nth-child(2) {
+            &.active {
+              background-color: #F28D00;
+            }
+          }
+          &:last-child {
+            &.active {
+              background-color: #7FBF00;
+            }
+          }
+        }
+      }
+      .mod-carousel-container {
+        margin-top: 126px;
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        .mode-label {
+          font-size: 78px;
+        }
+        /deep/ .content-wrapper {
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .status-bar {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+        bottom: 32px;
+        &.warnning {
+          bottom: 98px;
+        }
+        .status-label {
+          width: 33%;
+          height: $statusLabelHeight;
+          line-height: $statusLabelHeight;
+          text-align: center;
+          font-size: 42px;
+          color: #fff;
+          &:nth-child(2) {
+            border-left: 1px solid #fff;
+            border-right: 1px solid #fff;
+          }
+        }
+      }
+      .gree-notice-bar {
+        height: 98px;
+        line-height: 98px;
+        background-color: rgba($color: #999, $alpha: 0.15);
+        /deep/.gree-notice-bar-content {
+          font-size: 37px;
+        }
+      }
+    }
+  }
+  .page-main {
+    position: relative;
+    .hum-carousel-holder {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      .hum-carousel-pos {
+        position: absolute;
+        top: 139px;
+        left: 0;
+        /deep/ .content-wrapper {
+          font-family: 'robotoThin';
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .humidity-unit {
+        position: absolute;
+        width: 68px;
+        height: 61px;
+        // left: 705px;
+        // top: 190px;
+        left: 737px;
+        top: 139px;
+      }
+      .humidity-label {
+        position: absolute;
+        top: 90px;
+        font-family: appleUltralight,'SF UI Display Ultralight';
+        font-size: 2.5rem;
+      }
+      .row {
+        position: absolute;
+        top: 438px;
+        left: 50%;
+        transform: translateX(-50%);
+        p {
+          color: #404657;
+          font-size: 52px;
+        }
+      }
+    }
+    .fan-carousel-holder {
+      position: absolute;
+      top: 593px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+      text-align: center;
+      .rotate-fan {
+        position: absolute;
+        top: 122px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 70px;
+        color: #404657;
+      }
+    }
+  }
+  .page-footer {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    height: 292px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .item {
+      margin: 0px 67px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &.center {
+        margin: 0 auto;
+      }
+      img {
+        width: 157px;
+        height: 157px;
+      }
+      span {
+        font-size: 45px;
+        margin-top: 19px;
+      }
+    } 
+  }
+  .drawer-area {
+    width: 10rem;
+    background: white;
+  }
+}
+
+.hidden {
+  display: none !important;
+}

@@ -1,0 +1,308 @@
+.page-home {
+  .page-header {
+    position: relative;
+    width: 100%;
+    height: 605px;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    .bar-top {
+      position: absolute;
+      top: 113px;
+      left: 30px;
+      width: 100%;
+      z-index: 998;
+      img {
+        display: inline-block;
+        width: 72px;
+      }
+    }
+    .row {
+      &.data-list {
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        .col-20 {
+          p {
+            color: #fff;
+            font-size: 46px;
+            white-space: nowrap;
+          }
+        }
+      }
+      &.data-listbox {                   //除霾机空气盒子
+        position: absolute;
+        bottom: 40px;
+        width: 47%;
+        text-align: center;
+        padding: 0 26px 60px 26px;
+        .col-20 {
+          p {
+            color: #fff;
+            font-size: 26px;
+            white-space: nowrap;
+            // overflow: hidden;
+          }
+        }
+      }
+    }
+    .air-quality {
+      position: relative;
+      padding-top: 200px;
+      text-align: center;
+      .air-level {
+        //position: relative;
+        font-size: 124px;
+        color: #fff;
+        font-weight: lighter;
+      }
+    }
+  }
+  .page-main {
+    position: relative;
+    .bar-bottom {
+      position: absolute;
+      top: 25px;
+      left: 30px;
+      width: 100%;
+      z-index: 998;
+      img {
+        display: inline-block;
+        width: 72px;
+      }
+    }
+    .gree-notice-bar {
+      position: absolute;
+      left: 0;
+      //top: 41px;
+      width: 100%;
+      font-size: 42px;
+      img {
+        width: 50px;
+        height: 50px;
+        vertical-align: text-bottom; 
+        margin-right: 5px;
+      }
+    }
+    .gree-marquee-box {
+      li {
+        font-size: inherit;
+      }
+    }
+    .air-quality {
+      position: relative;
+      padding-top: 339px;
+      text-align: center;
+      .air-level {
+        position: relative;
+        font-size: 104px;
+
+      }
+    }
+  }
+  .swiper-slide-wrapper {
+    position: relative;
+    width: 100%;
+    height: 580px;
+    .textview{
+      color: black
+    }
+  }
+  .block {
+    z-index: 0
+  }
+}
+
+.toolbar {
+  bottom: 70px !important;
+  height: 240px !important;
+  background-color: transparent !important;
+  .row {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.triangle {
+  position: relative;
+  vertical-align: -2px;
+  display: inline-block;
+  padding-top: 0 !important;
+  border-color: transparent transparent #707070 transparent;
+  border-style: solid;
+  border-width: 0 0 20px 20px;
+  height: 0;
+  width: 0;
+}
+.gree-header {
+  //background: url(../img/bg_box_y.png) no-repeat;
+  //height: 100%;
+  
+}
+.roundBox {
+  z-index: 1;
+  background-color: #ffffff;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  //height: 260px;
+  position:absolute;
+  right:25px;
+  left: 25px;
+  top:48%;
+  img {
+    width: 100%;
+    height: 1px;
+  }
+}
+.air_excellent {
+  font-size:50px;
+  float: left;
+  margin-left:20px;
+  margin-top: 30px;
+}
+.air_good {
+  font-size:50px;
+  float: left;
+  margin-left:20px;
+  margin-top: 10px;
+}
+.better1 {
+  float: right;
+  //margin: 30px 20px  ;
+  padding-top: 50px;
+  padding-right: 20px;
+}
+.better2 {
+  float: right;
+  //margin: 30px 20px  ;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+.better {
+  line-height: 110px!important;
+}
+.van-cell--clickable:active {
+  background-color: #fff!important;
+}
+.van-cell__title {
+  span {
+    font-size: 50px
+  }
+}
+.gree-popup-box {
+  //width: 950px;
+}
+.van-radio-group{
+  width: 950px;  
+}
+.toolbar_position {
+  position: absolute;
+}
+.gree-power-off-extend {
+  margin-top: 750px;
+  height: 50%;
+}
+.off-mask {
+  margin-top: 50px;
+}
+.gree-power-off .gree-popup-box {
+    margin-top: 590px;
+    max-height: 30%
+}
+.notice-err {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.custom-notice-bar-error {
+  flex:1;
+  width:100%;
+  background-color:#4D7529;
+  color: #FFF;
+  font-size: 36px;
+  //margin-top: 510px;
+  img {
+    width: 44px;
+    height: 44px;
+  }
+  a {
+    color: #FFF;
+    text-decoration:underline;
+  }
+}
+.box-notice-bar-error {
+  margin:50px auto;
+  span {
+    font-size: 46px;
+    color: #FFF;
+    text-align: center; 
+  }
+  img {
+    width: 44px;
+    height: 44px;
+  }
+}
+.room-name {
+  position: absolute;
+  top:100px;
+  margin-left: 50px;
+  .room-name-txt{
+    font-size: 34px;
+    color: #FFF;
+  }
+  img {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 5px;
+    left: 8px;
+  }
+}
+.caro-txt-mode {
+  font-size: 55px;
+  color: #8F8F8F
+}
+.page-line {
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  padding: 0 auto;
+  height: 506px;
+  top: 91px;
+  border: 1px solid #333;
+  border-color: #BFDA90;
+}
+.gree-marquee-box li {
+  color: #FFF;
+  font-size: 36px;
+}
+// .list .item-content .item-inner .item-title {
+//   font-size: 16px!important;
+// }
+.buy {
+  color: red;
+  text-decoration: underline;
+}
+.gree-dialog-text {
+  font-size: 42px
+}
+.gree-dialog-actions a {
+  font-size: 42px
+}
+.page-content {
+  overflow: hidden!important;
+}
+.gree-header-right {
+  a {
+    color: #FFF!important;
+  }
+}

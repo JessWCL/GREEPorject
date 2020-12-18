@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>80802</mid>
+  <version>1.1</version>
+  <moduleVer>1</moduleVer>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow", "MessagePushFlag"]</statueJson>
+  <statueJson2>["RealTimePower","CountDownTime","CountDownState","CountDownFlag","Pow", "MessagePushFlag"]</statueJson2>
+</device>
+
+<!-- <device>
+  <mid>80801</mid>
+  <version>1.7</version>
+  <moduleVer>1</moduleVer>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow", "MessagePushFlag"]</statueJson>
+  <statueJson2>["Pow", "CountDownTime", "CountDownState", "CountDownFlag", "RealTimePower", "MessagePushFlag"]</statueJson2>
+</device> -->
+
+<!-- <statueJson2>["Pow", "CountDownTime", "CountDownState", "CountDownFlag", "RealTimeVoltage", "RealTimeEleCurrent", "RealTimePower", "EnergyOfTime", "EnergyOfTimeFlag", "StartTime", "EndTime"]</statueJson2> -->

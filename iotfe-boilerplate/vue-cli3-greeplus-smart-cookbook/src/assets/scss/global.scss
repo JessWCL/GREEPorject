@@ -1,0 +1,14 @@
+@import 'home';
+@import 'search';
+
+body {
+  font-family: FZLTHJ;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.gree-image__error, .gree-image__img, .gree-image__loading {
+  background-color: #eeeeee !important;
+}

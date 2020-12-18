@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>柜灯-关闭</title>
+    <desc>Created with Sketch.</desc>
+    <g id="柜灯-关闭" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-14">
+            <circle id="椭圆形复制-31" fill="#FFFFFF" cx="50" cy="50" r="50"></circle>
+            <g id="编组-18" transform="translate(27.000000, 24.000000)" stroke="#FFB909">
+                <rect id="矩形" stroke-width="3" x="1.5" y="1.5" width="43" height="49" rx="4"></rect>
+                <path d="M1.5862069,17.5 L44.4137931,17.5" id="路径-3" stroke-width="3" fill="#F6CC60"></path>
+                <path d="M1.5862069,34.5 L44.4137931,34.5" id="路径-3复制" stroke-width="3" fill="#F6CC60"></path>
+                <rect id="矩形" fill="#FFB909" x="10.8103448" y="17.5" width="24.3793103" height="3" rx="1.5"></rect>
+                <rect id="矩形复制-4" fill="#FFB909" x="10.8103448" y="34.5" width="24.3793103" height="3" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

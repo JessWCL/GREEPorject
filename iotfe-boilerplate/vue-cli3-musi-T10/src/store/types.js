@@ -1,0 +1,26 @@
+/*
+ * @Author: Jerry-Rain
+ * @Date: 2020-01-03 10:55:46
+ * @LastEditors: Jerry-Rain
+ * @LastEditTime: 2020-05-11 16:47:17
+ * @Description:
+ */
+/** mutations */
+export const DEV_NAME = 'DEV_NAME' // 设备名称
+export const SET_DEVICE_INFO = 'SET_DEVICE_INFO' // 设置deviceInfo
+export const SET_MAC = 'SET_MAC' // 设置mac
+export const SET_PATH_NAME = 'SET_PATH_NAME' // 设置pathName
+export const SET_SCROLL_Y = 'SET_SCROLL_Y' // 设置滚动Y轴位置
+export const SET_DATA_OBJECT = 'SET_DATA_OBJECT' // 设备的各种状态
+export const SET_API_OBJECT = 'SET_API_OBJECT' // 接口的数据
+export const IS_SCENE = 'IS_SCENE' // 是否场景模式
+
+// 根据业务逻辑修改
+
+/** actions */
+export const GET_DEVICE_INFO = 'GET_DEVICE_INFO' // 获取设备信息
+export const GET_ALL_STATES = 'GET_ALL_STATES' // 获取全部状态
+export const SEND_CTRL = 'SEND_CTRL' // 发送控制指令
+export const SET_YES_SCORE_LEFT = 'SET_YES_SCORE_LEFT' // 设置 左床分数
+export const SET_YES_SCORE_RIGHT = 'SET_YES_SCORE_RIGHT' // 设置 右床分数
+

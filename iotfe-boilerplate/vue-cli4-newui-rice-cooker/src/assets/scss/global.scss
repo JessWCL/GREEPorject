@@ -1,0 +1,144 @@
+@import 'home';
+@import 'appointment';
+@import 'offline';
+
+body {
+  /*
+   * 由于汉字较多，默认显示 FZLTHJ
+   * 数字和字母 Roboto-Light 需要单独适配
+   */
+  font-family: 'FZLTHJ';
+}
+
+.number {
+  font-family: 'Roboto-Light';
+}
+
+:root {
+  --color-primary: #f1a37c;
+}
+
+body {
+  background: #f6f6f6;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+
+.toolbar {
+  height: 230px !important;
+  background: #FBF9F9BF;
+  .row {
+    width: 100vw;
+    margin: 0 50px;
+    .col {
+      text-align: center;
+      .iconfont {
+        font-size: 60px;
+      }
+      .name {
+        font-size: 42px;
+        color: #404657;
+      }
+      .btn-start-bg {
+        margin: 0 auto;
+        width: 133px;
+        height: 133px;
+        opacity: 0.7;
+        border-radius: 50%;
+        background: linear-gradient(#ecbe83, #ef8254);
+        border: 2px solid #ec8e6a;
+        text-align: center;
+        line-height: 133px;
+        color: #fff;
+        font-size: 48px;
+        .iconfont {
+          line-height: 133px;
+          text-align: center;
+          font-size: 70px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+// dialig
+.gree-dialog-actions, .gree-dialog-text {
+  text-align: center;
+}
+.gree-dialog-actions {
+  .gree-dialog-btn:last-child {
+    color: #f1a37c !important;
+  }
+}
+
+// picker
+.gree-picker {
+  .gree-picker-column-list {
+    .gree-picker-column-item {
+      .column-list {
+        .column-item {
+          font-size: 42px;
+          color: #989898;
+          &.active {
+            color: #F1A37C !important;
+            font-size: 70px;
+          }
+        }
+      }
+    }
+  }
+  &.picker-time {
+    .gree-picker-column-hooks {
+      .gree-picker-column-hook {
+        position: relative;
+        &:nth-child(1) {
+          &::after {
+            content: '时';
+            position: absolute;
+            right: 25%;
+            top: 50%;
+            transform: translate(0%, -45%);
+            font-size: 42px;
+            color: #F1A37C;
+          }
+        }
+        &:nth-child(2) {
+          &::after {
+            content: '分';
+            position: absolute;
+            right: 25%;
+            top: 50%;
+            transform: translate(0%, -45%);
+            font-size: 42px;
+            color: #F1A37C;
+          }
+        }
+      }
+    }
+  }
+  &.picker-appointment-time {
+    .gree-picker-column-hook {
+      position: relative;
+      &:nth-child(1) {
+        &::after {
+          content: ':';
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translate(50%, -45%);
+          font-size: 90px;
+          line-height: 0;
+          font-size: 130px;
+          color: #F1A37C;
+        }
+      }
+    }
+  }
+}

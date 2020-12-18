@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- <device>
+    <mid>828501</mid>
+    <version>1.2</version>
+    <iconpath>/images/icon.png</iconpath>
+    <iconpath2>/images/iconGroup.png</iconpath2>
+    <statueJson>["Pow","FogLevel","mode","UVLight","WaterTankLight","TmrHour","TmrMin","TmrOn","TmrAction","estate1"]</statueJson>
+    <statueJson2>["Pow","FogLevel","mode","UVLight","WaterTankLight","TmrHour","TmrMin","TmrOn","TmrAction","estate1"]</statueJson2>
+</device> -->
+<!-- <device>
+    <mid>828502</mid>
+    <version>1.2</version>
+    <iconpath>/images/icon.png</iconpath>
+    <iconpath2>/images/iconGroup.png</iconpath2>
+    <statueJson>["Pow","Mode","FogLevel","WaterTankLight","Humidity","Estate1","Estate2","Estate3","MidType"]</statueJson>
+    <statueJson2>["Pow","Mode","FogLevel","WaterTankLight","Humidity","Estate1","Estate2","Estate3","MidType"]</statueJson2>
+</device>-->
+<device>
+    <mid>828503</mid>
+    <version>1.1</version>
+    <moduleVer>1</moduleVer>
+    <iconpath>/images/icon.png</iconpath>
+    <iconpath2>/images/iconGroup.png</iconpath2>
+    <statueJson>["Pow","Mode","FogLevel","Humidity","HumiditySet","Sleep","Estate1","Estate2","JFerr","MidType","TmrHour","TmrMin","TmrAction","TmrOn","UV"]</statueJson>
+    <statueJson2>["Pow","Mode","FogLevel","Humidity","HumiditySet","Sleep","Estate1","Estate2","JFerr","MidType","TmrHour","TmrMin","TmrAction","TmrOn","UV"]</statueJson2>
+</device> 

@@ -1,0 +1,59 @@
+.page-startup{
+  .progress-describe{
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 100px;
+    color: #fff;
+  }
+  .progress-bar{
+    position: absolute;
+    bottom: 180px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .gree-progress-bar-text{
+    display: none;
+  }
+
+  .data-list-startup{
+    p {
+      color: #fff;
+      font-size: 42px;
+      white-space: nowrap;
+    }
+  }
+
+  .gree-notice-bar-left{
+    color: #4fb8cf ;
+  }
+  .start-block{
+    position: relative;
+  }
+  .gree-button-stup{
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 172px;
+    font-size: 65px;
+    width: 520px;
+    &.round:after {
+      border-radius: 172px !important;
+    }
+
+    &.default.round {
+      max-width: 520px;
+    }
+  }
+
+  .popup-bottom {
+    .col-25 {
+      margin-top: 45px;
+    }
+    img {
+      width: 151px;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+module.exports = {
+  offline: {
+    prompt: 'Oops!The device is disconnected!'
+  },
+  home: {
+    air: {
+      title: '空气',
+      scoreTitle: '空气质量',
+      score: ['优', '良', '中', '差', ],
+      listTitle: {
+        temperature: '温度:',
+        humidity: '湿度:',
+        pm2p5: 'PM2.5:',
+        co2: '二氧化碳:',
+        formaldehyde: '甲醛:',
+      },
+      listValue: {
+        temperature: ['酷热', '炎热', '闷热', '舒适', '凉爽', '寒冷', '严寒', ],
+        humidity: ['潮湿', '舒适', '干燥', ],
+        pm2p5: ['严重污染', '重度污染', '中度污染', '轻度污染', '良', '优', '--', ],
+        co2: ['浑浊', '正常', '清新', ],
+        formaldehyde: ['超标', '合格', ],
+      },
+    },
+    energy: {
+      title: '能源',
+      subTitle1: '实时数据',
+      generationPower: '光伏发电功率:',
+      consumePower: '用电功率:',
+      currentCapacityKWh: '储能剩余电量:',
+      currentCapacityKWhValue: '{value}度',
+      subTitle2: '累计{day}天数据',
+      totalProvideQ: '光伏发电:',
+      totalProvideQValue: '{value}度',
+      savePowerTotal: '节省电费:',
+      savePowerTotalValue: '{value}元',
+      reduceCO2: '减排二氧化碳:',
+      tree: '约等于<b>{value}棵</b>大树<br />一天的吸收量'
+    },
+    health: {
+      title: '健康',
+      scoreTitle: '睡眠报告',
+      subTitle1: '洗护',
+      laundryTitle: '洗衣状态:',
+      lanudryValue: ['未洗衣', '正在洗衣'],
+      dishTitle: '洗碗状态:',
+      dishValue: ['未洗碗', '正在洗碗', ],
+      subTitle2: '用水',
+      water1Title: '自来水TDS值:',
+      water1Value: '良好',
+      water2Title: '净水TDS值:',
+      water2Value: '可直饮',
+      subTitle3: '饮食',
+      recipe: '推荐食谱:',
+      recipeValue: ['香菇焖鸡', '小炒肉', '酸甜排骨', '蒸水蛋', ],
+    },
+    illumination: {
+      title: '光照',
+      subTitle1: '灯光',
+      subTitle2: '窗帘',
+      room: ['客厅', '卧室', '卫浴', '厨房', '洗护间', '书房', ],
+    },
+    security: {
+      title: '安防',
+      status1: '布防',
+      status2: '撤防',
+      device1: '指静脉门锁:',
+      device2: '烟雾传感器:',
+      device3: '燃气传感器:',
+      device4: '水浸报警器:',
+      device5: '老人看护:',
+      deviceStatus: ['异常', '正常', ],
+    }
+  },
+};

@@ -1,0 +1,43 @@
+.page-error {
+  .page-header {
+    height: 100% !important;
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    background-image: url(~@assets/img/bg_body.png);
+  }
+  .error-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    .error-code {
+      position: relative;
+      display: block;
+      height: 324px;
+      width: 324px;
+      background-image: url(~@assets/img/error_wapper.png);
+      background-size: 100% 100%;
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ff0000;
+        font-size: 130px;
+        font-weight: 700;
+      }
+    }
+    .block {
+      text-align: center;
+      margin-top: 0;
+      h3,
+      p {
+        font-size: 43px;
+      }
+      h3 {
+        padding-top: 33px;
+      }
+    }
+  }
+}

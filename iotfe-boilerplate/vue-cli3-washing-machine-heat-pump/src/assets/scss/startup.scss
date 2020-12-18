@@ -1,0 +1,81 @@
+.page-startup{
+  .progress-describe{
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 100px;
+    color: #fff;
+    white-space : nowrap;
+  }
+  .progress-bar,
+  .progress-bar2{
+    position: absolute;
+    bottom: 180px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .progress-bar{
+    bottom: 100px;
+  }
+  .gree-progress-bar-text{
+    display: none;
+  }
+
+  .data-list2{
+    p {
+      color: #fff;
+      font-size: 42px;
+      white-space: nowrap;
+    }
+  }
+
+  .gree-notice-bar-left{
+    color: #4fb8cf ;
+  }
+
+  .start-or-pause,
+  .start-or-pause2{
+    position: relative;
+    display: flex;
+  // 按钮
+  .pause-btn{
+    width: 500px;
+    top: 150px;
+  }
+  .pause-btn,
+  .pause-btn2{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 172px;
+    width: 520px;
+    font-size: 65px;
+
+    &.round:after {
+      border-radius: 172px !important;
+    }
+
+    &.default.round {
+      max-width: 520px;
+    }
+  }
+  }
+
+
+  .btn-yellow {
+    background: #ffc644 !important;
+    color: #f4f4f4 !important;
+  }
+
+  
+  .popup-bottom {
+    .col-25 {
+      margin-top: 45px;
+    }
+    img {
+      width: 151px;
+    }
+  }
+}

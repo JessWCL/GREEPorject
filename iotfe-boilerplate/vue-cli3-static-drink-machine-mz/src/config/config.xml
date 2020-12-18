@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>828305</mid>
+  <version>1.1</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["ErrorCode1","ErrorCode2","ErrorCode3","mode","state"]</statueJson>
+  <statueJson2>["ErrorCode1","ErrorCode2","ErrorCode3","mode","state","InPressC","InPressN","MemPressC","MemPressN","InElecC","InElecN","ProElecC","ProElecN","RawLevelC","RawLevelN","ProLevelC","ProLevelN"]</statueJson2>
+</device>

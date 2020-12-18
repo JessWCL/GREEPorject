@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>80404</mid>
+  <moduleVer>1</moduleVer>
+  <version>1.2</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow"]</statueJson>
+  <statueJson2>["Pow"]</statueJson2>
+</device>
+
+<!-- <device>
+  <mid>80401</mid>
+  <moduleVer>1</moduleVer>
+  <version>1.6</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow"]</statueJson>
+  <statueJson2>["Pow"]</statueJson2>
+</device> -->

@@ -1,0 +1,18 @@
+.gree-error {
+  height: 100vh !important;
+  .gree-offline-content {
+    .gree-offline-pic {
+      width: 312px !important;
+      height: 64px !important;
+    }
+  }
+  .gree-offline-text {
+    padding-top: 95px !important;
+    font-size: 45px !important;
+    .detail-link{
+      padding-bottom: 2px;
+      border-bottom: 1px solid rgb(67, 188, 248);
+      color: rgb(67, 188, 248);
+    }
+  }
+}

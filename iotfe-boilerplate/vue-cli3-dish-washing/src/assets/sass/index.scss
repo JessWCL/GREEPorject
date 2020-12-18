@@ -1,0 +1,14 @@
+@import "global.scss";
+@import "mixin.scss";
+
+.button-shadow {
+  box-shadow: 0 2px 13px rgba(0, 0, 0, 0.1);
+}
+
+.disabled {
+  opacity: 0.3 !important;
+}
+
+.gree-button:active:before{
+  opacity: 0.02 !important;
+}

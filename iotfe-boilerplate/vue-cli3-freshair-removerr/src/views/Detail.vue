@@ -1,0 +1,57 @@
+<template>
+  <gree-view bgColor='#F4F4F4'>
+    <gree-header>当前污染等级设置</gree-header>
+    <gree-page>
+      <div class="page-main">
+        <gree-radio-list
+          :options="PollutionList"
+          v-model="ODUViti"
+          icon="check"
+          @change="setPollutionLevel"
+        />
+      </div>
+    </gree-page>
+  </gree-view>
+</template>
+
+<script>
+import { mapState, mapMutations, mapActions } from "vuex";
+import { closePage } from "../../../static/lib/PluginInterface.promise";
+
+export default {
+  data() {
+    return {
+      //timeMode: 0,
+    };
+  },
+  computed: {
+    ...mapState({
+      dataObject: state => state.dataObject,
+      ScrTime: state => state.dataObject.ScrTime,
+      PollutionList: state => state.PollutionList,
+      ODUViti: state => state.dataObject.ODUViti
+    })
+  },
+  created() {
+    this.timeMode = this.ScrTime;
+  },
+  methods: {
+    ...mapMutations({
+      setDataObject: "SET_DATA_OBJECT"
+    }),
+    ...mapActions({
+      sendCtrl: "SEND_CTRL"
+    }),
+    /**
+     * @description 返回键
+     */
+    goBack() {
+      closePage();
+    },
+    setPollutionLevel(index) {
+      this.setDataObject({ ODUViti: index.value });
+      this.sendCtrl({ ODUViti: index.value });
+    }
+  }
+};
+</script>

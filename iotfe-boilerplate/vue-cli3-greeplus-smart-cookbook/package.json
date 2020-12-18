@@ -1,0 +1,60 @@
+{
+  "name": "iotfe-vue-smart-cookbook",
+  "version": "1.6.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:share": "vue-cli-service serve --mode dev-share",
+    "serve:review": "vue-cli-service serve --mode dev-review",
+    "test": "vue-cli-service serve --mode test",
+    "debug": "vue-cli-service build --mode debug",
+    "build": "npm run build:xml && vue-cli-service build && npm run build:zip",
+    "build:share": "vue-cli-service build --mode prod-share",
+    "build:review": "vue-cli-service build --mode prod-review",
+    "build:xml": "node config_xml.js",
+    "build:zip": "node compress_zip.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "compressing": "^1.5.1",
+    "dotenv": "^8.2.0",
+    "gree-ui": "http://10.2.11.226/iot-4/web/gree-ui.git#fba3b1eee9ea120d20686d8e6dc2a09f7cfdd92a",
+    "vconsole": "^3.3.0",
+    "vue": "^2.5.17",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-i18n": "^8.10.0",
+    "vue-promised": "^1.2.2",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.7",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.7",
+    "@vue/cli-service": "^3.0.0-rc.7",
+    "@vue/eslint-config-standard": "^3.0.0-rc.7",
+    "autoprefixer": "^8.4.1",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.8.0",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "compression-webpack-plugin": "1.0.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "eslint": "4.15.0",
+    "eslint-config-airbnb-base": "11.3.0",
+    "eslint-friendly-formatter": "3.0.0",
+    "eslint-import-resolver-webpack": "0.8.3",
+    "eslint-loader": "1.7.1",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-vue": "4.0.0",
+    "node-sass": "^4.13.1",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-url": "^8.0.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "xml2js": "^0.4.23"
+  },
+  "browserslist": [
+    "iOS >= 8",
+    "Android > 4.0"
+  ]
+}

@@ -1,0 +1,40 @@
+@import 'home';
+@import 'appointment';
+@import 'offline';
+
+@font-face {
+  font-family: 'robotoThin';
+  src: url('../font/Roboto-Thin.ttf');
+}
+
+.hidden {
+  display: none;
+}
+
+/* ToolBar */
+.toolbar {
+  bottom: 70px !important;
+  .row {
+    justify-content: flex-end;
+    .col,
+    .col-25 {
+      .icon {
+        background: none;
+        border: none;
+        box-shadow: none;
+        img {
+          width: 174px;
+          height: 174px;
+        }
+      }
+    }
+  }
+}
+
+body{
+  height: 100vh;
+}
+
+.invisible {
+  visibility: hidden;
+}

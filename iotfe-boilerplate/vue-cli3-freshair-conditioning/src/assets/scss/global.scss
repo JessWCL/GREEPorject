@@ -1,0 +1,67 @@
+@import 'home';
+@import 'screen';
+@import 'voice';
+// 新风除霾机
+@import 'filter';
+@import 'box';
+
+.hidden {
+  display: none !important;
+}
+.toolbar {
+  .col {
+    .icon {
+      background: none;
+      border: none;
+      box-shadow: none;
+      img {
+        width: 174px;
+        height: 174px;
+      }
+    }
+  }
+}
+/* NoticeBar */
+.gree-notice-bar {
+  z-index: 1;
+}
+/* Popup */
+.gree-popup {
+  .popup-bottom {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 64px;
+    border-radius: 0;
+    background-color: #fff;
+    box-shadow: #dbdbdb 0 0 4px 0;
+    .arrow-down {
+      text-align: center;
+      position: relative;
+      margin-bottom: 10px;
+      &:after {
+        content: '';
+        width: 44px;
+        height: 18px;
+        display: inline-block;
+        background: url(../img/arrow.png) no-repeat;
+        background-size: 100%;
+      }
+    }
+    .row {
+      .col {
+        padding-top: 22px;
+        img {
+          width: 152px;
+          height: 152px;
+        }
+        span {
+          font-size: 39px;
+          padding-top: 29px;
+        }
+      }
+    }
+  }
+}

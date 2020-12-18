@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>828212</mid>
+  <version>1.1</version>
+  <moduleVer>1</moduleVer>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Rotate","Mod","WdSpd","TmrOn","TmrAction","TmrHour","TmrMin","estate2","JFerr"]</statueJson>
+  <statueJson2>["Pow","Rotate","Mod","WdSpd","TmrOn","TmrAction","TmrHour","TmrMin","estate2","JFerr"]</statueJson2>
+</device>

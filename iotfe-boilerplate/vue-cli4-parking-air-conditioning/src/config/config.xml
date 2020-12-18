@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>f000</mid>
+  <version>1.0</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Mod","SetTem","WdSpd","Lig","StHt","TmrOnMinLf","TmrOffMinLf","VoltLowSet","VoltWarn","VoltNow"]</statueJson>
+  <statueJson2>["Pow","Mod","SetTem","WdSpd","Lig","StHt","TmrOnMinLf","TmrOffMinLf","VoltLowSet","VoltWarn","VoltNow"]</statueJson2>
+</device>

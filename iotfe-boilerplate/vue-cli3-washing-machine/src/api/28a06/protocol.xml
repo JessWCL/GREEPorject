@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>28a06</mid>
+  <version>1.0</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","mute","childLock","drum1Params","drum2Params","drum3Params","drum1Order","drum2Order","drum3Order","drumError","drum1Error","drum2Error","drum3Error","drum1prompt","drum2prompt","drum3prompt","JFerr"]</statueJson>
+  <statueJson2>["Pow","mute","childLock","drum1Params","drum2Params","drum3Params","drum1Order","drum2Order","drum3Order","drumError","drum1Error","drum2Error","drum3Error","drum1prompt","drum2prompt","drum3prompt","JFerr"]</statueJson2>
+</device>

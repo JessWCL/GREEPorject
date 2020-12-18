@@ -1,0 +1,169 @@
+@import 'home';
+@import 'offline';
+@import 'setup';
+@import 'favorites';
+@import 'startup';
+
+body,html{
+  font-family: appleUltralight;
+}
+
+.gree-header-title{
+  font-family: appleLight;
+}
+.hidden {
+  display: none !important;
+}
+
+.visibility-hidden {
+  visibility: hidden !important;
+}
+
+
+.textBlue{
+  color: #00aeff !important;
+}
+
+.toolbar {
+  // bottom: 70px !important;
+
+  .col {
+    .icon {
+      background: none;
+      border: none;
+      box-shadow: none;
+
+      img {
+        width: 174px;
+        height: 174px;
+      }
+    }
+  }
+}
+
+.opacity {
+  opacity: 0.4 !important;
+}
+.gree-popup-mask{
+  background-color: rgba($color:#000, $alpha: 0.5)
+}
+.gree-dialog-content {
+  width: 950px;
+
+  .gree-dialog-body {
+    padding-bottom: 70px;
+
+    .gree-dialog-title {
+      margin-bottom: 50px;
+    }
+  }
+
+  footer.gree-dialog-actions {
+    a.gree-dialog-btn {
+      font-size: 42px;
+      height: 148px ;
+      a.gree-dialog-btn:after {
+        width: 1px;
+      }
+    }
+  }
+
+  .gree-dialog-text {
+    font-size: 42px;
+    line-height: 75px
+  }
+}
+
+
+.dropdown{
+  .dropdown-menu{
+  background-color: #F4F4F4;
+  min-width: auto;
+  .dropdown-content{
+    margin: 0;
+    padding: 0;
+    .dropdown-item{
+      margin: 0;
+      width: 170px !important;
+      color: #404657;
+      font-size: 42px;
+      border-bottom: 1px solid #e5e5e5;
+      &:last-child{
+        border-bottom: 0px solid #e5e5e5;
+      }
+    }
+  }
+}
+}
+
+
+/* Popup */
+.gree-popup {
+  .popup-bottom {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 64px;
+    border-radius: 0;
+    background-color: #f4f4f4;
+    box-shadow: #dbdbdb 0 0 4px 0;
+    .icon-more{
+      width: 20px;
+      height: 20px;
+    }
+    .arrow-down {
+      text-align: center;
+      position: relative;
+      margin-bottom: 10px;
+
+      &:after {
+        content: '';
+        width: 44px;
+        height: 18px;
+        display: inline-block;
+        background: url(../img/arrow.png) no-repeat;
+        background-size: 100%;
+      }
+    }
+
+    .row {
+      display: flex;
+      justify-content: flex-start;
+
+      .col-25 {
+        width: 25%;
+      }
+
+      .isSelect {
+        background-color: blue;
+      }
+
+      .col {
+        padding-top: 22px;
+
+        img {
+          width: 152px;
+          height: 152px;
+        }
+
+        span {
+          font-size: 39px;
+          padding-top: 29px;
+        }
+      }
+    }
+  }
+}
+
+// 热泵
+// page-content 会有padding-top, 以及因为滑轮的缘故，需加 overflow: hidden  
+.page-content {
+  overflow: hidden !important;
+}
+.error{
+  .page-content {
+    overflow: auto !important;
+  }
+}

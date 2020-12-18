@@ -1,0 +1,66 @@
+.page-OrderList {
+  $toolBarHeight: 130px;
+  .page-main {
+    position: relative;
+    .list {
+      height: calc(100vh - 240px);;
+      overflow: auto;
+      margin: 0;
+    }
+}
+  .gree-switch .switch-icon:after, .gree-switch .switch-icon:before{
+    background: #E9E9E9;
+  }
+  .gree-switch.active>.switch-icon {
+    background: #FFA500;
+  }
+  .bottom {
+    .gree-icon.icon-font.md {
+      font-size: 80px;
+      font-weight: 600;
+    }
+  }
+  .list >ul >li{
+    height: 180px !important;
+    border-bottom: 1px solid #f4f4f4;
+  }
+   .list .item-content{
+    padding: 0 0 0 50px;
+  }
+   .list .item-content .item-inner{
+    height: 180px !important;
+  }
+  .list .item-content .item-inner {
+    .item-header, 
+    .item-title, 
+    .item-footer{
+      color: #696969 !important;
+      font-size: 40px !important;
+    }
+  }
+  .gree-switch {
+    font-size: 100px;
+    margin-right: 20px;
+  }
+  .gree-check{
+    transform: scale(1.5);
+  }
+    // 底部栏
+    .toolBar {
+      position: fixed;
+      height: $toolBarHeight !important;
+      bottom: 0px !important;
+      width: 100%;
+      border: 1px solid  #F5F4F4;
+      .bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  // }
+}
+

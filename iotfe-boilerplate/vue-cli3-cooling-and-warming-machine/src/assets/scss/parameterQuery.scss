@@ -1,0 +1,19 @@
+.page-parameterQuery {
+  .list >ul >li{
+    height: 130px !important;
+    border-bottom: 1px solid #f4f4f4;
+  }
+  .list {
+    position: absolute;
+    margin-top: 114px;
+    width: 100%;
+    height: auto;
+    .item-link{
+      height: 100px ;
+      font-size: 45px;
+      .item-inner:before{
+        transform: translateY(-50%) scale(1.7); 
+      }
+    }
+  }
+}

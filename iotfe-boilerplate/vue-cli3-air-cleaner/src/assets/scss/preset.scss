@@ -1,0 +1,38 @@
+.preset{
+  background-color: 'f4f4f4';
+  .preset-type{
+    position: relative;
+    margin-top: 150px;
+    padding-left: 60px;
+    height: 160px;
+    line-height: 160px;
+    font-size: 55px;
+    background-color: #fff;
+    .preset-btn{
+      display: inline-block;
+      position: absolute;
+      right: 80px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      background-color: #095ab5;
+      color: #fff;
+      border-radius: 16px;
+      text-align: center;
+    }
+  }
+  .cancel{
+    display: inline-block;
+    margin: 150px 0 0 15%;
+    width: 70%;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 55px;
+    color: #fff;
+    background: #095ab5;
+  }
+}

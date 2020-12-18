@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>ic_ele_tashan</title>
+    <desc>Created with Sketch.</desc>
+    <g id="五大系统（深背景）" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_ele_tashan" transform="translate(2.000000, 2.000000)" stroke="#32C5FF">
+            <g id="塔扇" transform="translate(37.000000, 19.000000)">
+                <path d="M25.1666667,65 L9.83333333,65 C7.71615385,65 6,63.3693966 6,61.3577586 L6,3.64224138 C6,1.63060345 7.71615385,0 9.83333333,0 L25.1666667,0 C27.2838462,0 29,1.63060345 29,3.64224138 L29,61.3577586 C29,63.3693966 27.2838462,65 25.1666667,65 Z" id="Stroke-1" stroke-width="1.6"></path>
+                <path d="M20.47935,48 L14.52065,48 C13.1286,48 12,46.8274286 12,45.3811429 L12,6.61885714 C12,5.17257143 13.1286,4 14.52065,4 L20.47935,4 C21.8714,4 23,5.17257143 23,6.61885714 L23,45.3811429 C23,46.8274286 21.8714,48 20.47935,48 Z" id="Stroke-3" stroke-width="1.6"></path>
+                <path d="M33.9770968,70 L1.02346774,70 C0.458387097,70 0,69.5128 0,68.9128 L0,68.0872 C0,67.4872 0.458387097,67 1.02346774,67 L33.9770968,67 C34.5421774,67 35,67.4872 35,68.0872 L35,68.9128 C35,69.5128 34.5421774,70 33.9770968,70 Z" id="Stroke-5" stroke-width="1.2"></path>
+            </g>
+            <circle id="椭圆形复制-9" stroke-width="3" fill-opacity="0" fill="#FFFFFF" cx="54" cy="54" r="54"></circle>
+        </g>
+    </g>
+</svg>

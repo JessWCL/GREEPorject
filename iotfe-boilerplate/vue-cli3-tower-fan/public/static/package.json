@@ -1,0 +1,22 @@
+{
+  "name": "iotfe-cordova-api",
+  "version": "0.0.1",
+  "description": "iotfe cordova api",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "serve -l 80",
+    "lint": "npm run lint:PluginInterfaceAndroid && npm run lint:PluginInterfacePromise && npm run lint:PluginInterfaceIOS",
+    "lint:PluginInterfaceAndroid": "npx eslint ./plugin/jsplugins/PluginInterface.js",
+    "lint:PluginInterfaceIOS": "npx eslint ./plugin/ios/cordova.js",
+    "lint:PluginInterfacePromise": "npx eslint ./lib/PluginInterface.promise.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "serve": "^11.3.2"
+  }
+}

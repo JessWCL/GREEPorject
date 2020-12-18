@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>70402</mid>
+  <version>1.2</version>
+  <moduleVer>1</moduleVer>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["AutoLeftWai","AutoLeftLeg","AutoRighWai","AutoRighLeg","HumLeftWai","HumLeftLeg","HumRighWai","HumRighLeg"]</statueJson>
+  <statueJson2>["AutoLeftWai","AutoLeftLeg","AutoRighWai","AutoRighLeg","HumLeftWai","HumLeftLeg","HumRighWai","HumRighLeg"]</statueJson2>
+</device>

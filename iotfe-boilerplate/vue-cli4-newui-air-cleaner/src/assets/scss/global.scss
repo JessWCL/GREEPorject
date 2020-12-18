@@ -1,0 +1,24 @@
+@import 'home';
+@import "circle-slider";
+@import 'offline';
+@import 'fliter';
+@import 'iconfont';
+
+body {
+  /*
+   * 由于汉字较多，默认显示 FZLTHJ
+   * 数字和字母 Roboto-Light 需要单独适配
+   */
+  font-family: 'FZLTHJ';
+}
+
+.number {
+  font-family: 'Roboto-Light';
+}
+
+.hidden {
+  display: none !important;
+}
+html, body {
+  font-family: 'appleUltralight';
+}

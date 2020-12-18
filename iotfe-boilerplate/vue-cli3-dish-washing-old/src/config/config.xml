@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<device>
+    <mid>828b00</mid>
+    <version>1.8</version>
+    <iconpath>/images/icon.png</iconpath>
+    <iconpath2>/images/iconGroup.png</iconpath2>
+    <statueJson>["Pow","Wash","WashDone","WorkStatus","PauseStart","Mod","LayerWash","Dry","Hard","StHard","RmTmrHour","RmTmrMin","TmrOff","TmrOn","estate1","estate2","TmrStatus","TmrHour","TmrMin","Disinfect","JFerr"]</statueJson>
+    <statueJson2>["Pow","Wash","WashDone","WorkStatus","PauseStart","Mod","LayerWash","Dry","Hard","StHard","RmTmrHour","RmTmrMin","TmrOff","TmrOn","estate1","estate2","TmrStatus","TmrHour","TmrMin","StTmr","Purifier","PurifierTime","Disinfect","JFerr","MidType"]</statueJson2>
+    <build>0</build>
+</device>

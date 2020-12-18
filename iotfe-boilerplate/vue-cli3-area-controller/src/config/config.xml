@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>5000</mid>
+  <version>1.6</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Mod","StTem","WdSpd","EnSvSt","StFahFlg","ColdMod","HeatSvStTemMax","CoolSvStTemMin","TemUnit","IndoorType","OMod","LowDeHumi","Quier","RmType","RmNum","VavleAllOn","CSvStTemMinFlg","HSvStTemMaxFlg"]</statueJson>
+  <statueJson2>["Pow","Mod","StTem","WdSpd","Dry","EnSvSt","StFahFlg","ColdMod","HeatSvStTemMax","CoolSvStTemMin","Dred","AppTimer","TemUnit","IndoorType","OMod","LowDeHumi","Quier","RmType","RmNum","VavleAllOn","CSvStTemMinFlg","HSvStTemMaxFlg"]</statueJson2>
+  <moduleVer>1</moduleVer>
+    <!-- 插件项目工程模板的版本 -->
+    <!-- 没有这一行的 -->
+    <!-- 有这一行： 取值 int   0：iot旧模板（部分还在使用需要兼容的）  1：黎工iot模板-->
+</device>

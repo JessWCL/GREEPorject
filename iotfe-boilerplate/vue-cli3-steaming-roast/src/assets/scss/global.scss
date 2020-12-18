@@ -1,0 +1,364 @@
+@import 'iconfont';
+@import 'appointment';
+@import 'home';
+@import 'my-favorite';
+@import 'child-lock';
+@import 'error';
+@import 'offline';
+
+/* global css start */
+.hidden {
+  display: none !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.fixed-bottom {
+  position: fixed !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* global css end */
+
+/* Header */
+.gree-header {
+  .gree-header-title {
+    font-size: 51px !important;
+  }
+}
+
+/* Block */
+.block-title {
+  overflow: initial !important;
+  color: #404657 !important;
+  font-size: 45px !important;
+  line-height: 80px !important;
+  font-weight: normal !important;
+  transform: translateZ(0);
+}
+/* Swiper */
+.custom-swiper {
+  width: 100%;
+  height: 428px;
+  min-height: 428px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.5;
+    &.swiper-slide-prev,
+    &.swiper-slide-next {
+      opacity: 0.75;
+    }
+    &.swiper-slide-active {
+      opacity: 1;
+      p {
+        visibility: visible;
+      }
+    }
+    i {
+      color: #fff;
+      font-size: 200px;
+    }
+    p {
+      visibility: hidden;
+      padding-top: 33px;
+      font-size: 69px;
+      color: #fff;
+      white-space: nowrap;
+    }
+  }
+  &.custom-no-swiping {
+    .swiper-slide {
+      &:not(.swiper-slide-active) {
+        visibility: hidden;
+      }
+    }
+  }
+}
+
+/* Dialog */
+.gree-dialog {
+  .gree-popup-box {
+    max-width: 90%;
+    min-width: 90%;
+    .gree-dialog-content {
+      width: auto;
+    }
+    .gree-dialog-body {
+      font-size: 42px;
+      line-height: 1.7;
+      text-align: center;
+      font-weight: 400;
+      .gree-dialog-title {
+        font-size: 57px;
+      }
+      .gree-check {
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        margin: 0;
+        .gree-check-icon {
+          display: none;
+        }
+        .gree-check-label {
+          margin-left: 0;
+          img {
+            width: 57px;
+            height: 57px;
+          }
+        }
+      }
+    }
+  }
+  .gree-dialog-btn:last-child {
+    font-size: 42px;
+    color: #f1ae26;
+  }
+}
+
+/* Gree-Search */
+.gree-search-bar {
+  height: 110px;
+  background: transparent !important;
+  .gree-search-bar__content {
+    border-radius: 110px;
+    background: #e8e8e8;
+    .gree-field-item-left {
+      margin-left: 20px;
+    }
+    .search-input {
+      border-radius: 55px !important;
+      form {
+        height: 110px;
+        input {
+          padding: 0 !important;
+          border: 0;
+          height: 110px;
+          font-size: 45px;
+          line-height: 110px;
+        }
+        .gree-icon {
+          width: 50px;
+          height: 50px;
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+
+/* gree-notice-bar */
+.gree-notice-bar {
+  .gree-notice-bar-left {
+    img {
+      height: 80px;
+    }
+  }
+}
+
+/* Toolbar */
+.toolbar {
+  z-index: 2 !important;
+  .col {
+    .icon {
+      background: none;
+      border: none;
+      box-shadow: none;
+      img {
+        width: 174px;
+        height: 174px;
+      }
+    }
+  }
+}
+/* NoticeBar */
+.gree-notice-bar {
+  z-index: 1 !important;
+  padding-top: 0.05rem;
+  padding-bottom: 0.05rem;
+  .gree-notice-bar-content {
+    font-size: 45px;
+  }
+}
+
+/* GreeButton start */
+.gree-button {
+  height: 120px;
+  padding: 1rem;
+  line-height: 120px;
+  font-size: 56px;
+  box-shadow: 0 2px 13px rgba(0, 0, 0, 0.1);
+  .gree-button-content {
+    font-size: 56px;
+  }
+  &.default:after {
+    border: none !important;
+  }
+  &.default.round {
+    height: 114px;
+    width: 352px !important;
+    line-height: 114px;
+    max-width: 420px !important;
+    transform: translateZ(0); // for iOS
+  }
+}
+/* GreeButton end */
+
+/* Popup */
+.gree-popup-box {
+  min-width: 90%;
+}
+.gree-popup {
+  .popup-bottom {
+    // 671px = 127px + 130px + 428px  .header .gree-tab-bar-item .custom-swiper-layer
+    min-height: calc(100vh - 685px);
+    min-height: calc(100vh - 685px - env(safe-area-inset-top));
+  }
+  .popup-center,
+  .popup-bottom {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 64px;
+    border-radius: 0;
+    background-color: #f4f4f4;
+    box-shadow: #dbdbdb 0 0 4px 0;
+    text-align: center;
+    > .row {
+      // margin-bottom: 120px;
+      .col-25 {
+        padding-top: 40px;
+        .circle {
+          .iconfont {
+            font-size: 75px;
+          }
+        }
+        h3 {
+          font-size: 45px;
+        }
+        &.is-checked {
+          .circle {
+            background: #f1ae26;
+            .iconfont {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* Picker */
+.gree-picker {
+  .gree-picker-column-masker {
+    &.top {
+      background: transparent;
+    }
+    &.bottom {
+      background: transparent;
+    }
+  }
+  .gree-picker-column {
+    background: transparent;
+    padding: 0;
+    .gree-picker-column-list {
+      .gree-picker-column-item {
+        .column-list {
+          .column-item {
+            font-size: 120px;
+            font-family: appleLight;
+            // @media only screen and (device-width: 320px) and (device-height: 568px) {
+            //   font-size: 50px;
+            // }
+            // @media only screen and (device-width: 375px) and (device-height: 667px) {
+            //   font-size: 60px;
+            // }
+            // @media only screen and (device-width: 412px) and (device-height: 732px) { // 格力二代
+            //   font-size: 50px;
+            // }
+            &.active {
+              color: #404657;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.picker-temp {
+    &.blank-unit {
+      .gree-picker-column-hook {
+        &::after {
+          content: '';
+        }
+      }
+    }
+    .gree-picker-column-hook {
+      &::after {
+        content: '°C';
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        transform: translate(250%, -75%);
+        font-size: 59px;
+      }
+    }
+  }
+  &.picker-time {
+    .gree-picker-column-hook {
+      position: relative;
+      &:nth-child(1) {
+        &::after {
+          content: '时';
+          position: absolute;
+          right: 15%;
+          top: 50%;
+          transform: translate(80%, -45%);
+          font-size: 69px;
+        }
+      }
+      &:nth-child(2) {
+        &::after {
+          content: '分';
+          position: absolute;
+          right: 15%;
+          top: 50%;
+          transform: translate(150%, -45%);
+          font-size: 69px;
+        }
+      }
+    }
+  }
+  &.picker-appointment-time {
+    .gree-picker-column-hook {
+      position: relative;
+      &:nth-child(1) {
+        &::after {
+          content: ':';
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translate(50%, -45%);
+          font-size: 90px;
+          line-height: 0;
+        }
+      }
+    }
+  }
+}
+
+/* 时间显示的分号 */
+.semicolon {
+  margin: 0 60px;
+}

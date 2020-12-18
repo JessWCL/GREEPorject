@@ -1,0 +1,40 @@
+.page-voice {
+  background-image: url(~@assets/img/voicebg.png);
+  background-size: 100% 100%;
+  .gree-header-left {
+    top: 40px;
+    .iconfont {
+      font-size: 40px;
+    }
+  }
+  .gree-header-left .iconfont,
+  .gree-header-right a {
+    color: #fff;
+  }
+  .gree-popup-box {
+    p {
+      color: #fff;
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 6px;
+    }
+  }
+  .gree-messages-content {
+    margin-top: 120px;
+    max-height: calc(100% - 300px);
+    .gree-message-bubble {
+      padding: 10px 40px 10px 35px !important;
+      min-height: 100px !important;
+      line-height: 2.5 !important;
+    }
+  }
+  .toolbar {
+    bottom: 20px !important;
+    .icon {
+      img {
+        width: 140px !important;
+        height: 140px !important;
+      }
+    }
+  }
+}

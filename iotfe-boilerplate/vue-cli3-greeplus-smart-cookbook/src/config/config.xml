@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <mid>smart_cookbook</mid>
+  <version>1.11</version>
+  <moduleVer>1</moduleVer> <!-- 有这一行： 取值 int   0：iot旧模板（部分还在使用需要兼容的）  1：黎工iot模板-->
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>[]</statueJson>
+  <statueJson2>[]</statueJson2>
+</device>

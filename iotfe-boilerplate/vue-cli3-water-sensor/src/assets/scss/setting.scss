@@ -1,0 +1,22 @@
+.page-setting {
+  .gree-switch {
+    width: 130px;
+    height: 80px;
+    border-radius: 80px;
+    &::before {
+      width: 130px;
+      height: 80px;
+      border-radius: 40px;
+    }
+    &::after {
+      top: 6px;
+      left: 10px;
+      width: 68px;
+      height: 68px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    &.active::after {
+      transform: translateX(44px);
+    }
+  }
+}

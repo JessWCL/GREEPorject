@@ -1,0 +1,15 @@
+.page-parameterDetail {
+  .list {
+    position: absolute;
+    margin-top: 114px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: -webkit-fill-available;
+    overflow: auto;
+    .item-content .item-inner {
+      font-size: 45px;
+      height: 100px;
+    }
+
+  }
+}

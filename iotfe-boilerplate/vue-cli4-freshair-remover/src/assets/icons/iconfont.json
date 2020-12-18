@@ -1,0 +1,156 @@
+{
+  "id": "1929355",
+  "name": "通用图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15932632",
+      "name": "开始",
+      "font_class": "kaishi",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "15773849",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "15773808",
+      "name": "语音",
+      "font_class": "yuyin",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "15773809",
+      "name": "预约",
+      "font_class": "yuyue1",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "15773824",
+      "name": "灯光",
+      "font_class": "dengguang",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "15773827",
+      "name": "电量查询",
+      "font_class": "dianliangchaxun",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "15773829",
+      "name": "高级",
+      "font_class": "gaoji",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "15773835",
+      "name": "开关",
+      "font_class": "kaiguan",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "15773737",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "15773738",
+      "name": "自动",
+      "font_class": "zidong",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "15773739",
+      "name": "童锁",
+      "font_class": "tongsuo",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "15773711",
+      "name": "模式",
+      "font_class": "moshi",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "15773724",
+      "name": "定时",
+      "font_class": "dingshi",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "15773698",
+      "name": "跳转",
+      "font_class": "tiaozhuan",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "15773699",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "15773676",
+      "name": "铃铛",
+      "font_class": "lingdang",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "15773678",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "15773679",
+      "name": "故障",
+      "font_class": "guzhang",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "15773681",
+      "name": "进度查询",
+      "font_class": "jinduchaxun",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "15773682",
+      "name": "售后电话",
+      "font_class": "shouhoudianhua",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "15773683",
+      "name": "预约",
+      "font_class": "yuyue",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    }
+  ]
+}

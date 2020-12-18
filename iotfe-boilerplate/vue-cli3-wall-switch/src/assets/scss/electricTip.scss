@@ -1,0 +1,115 @@
+.gree-cell-item-title {
+    font-size: 42px;
+    font-weight: unset !important;
+    color: #404657 !important;
+  }
+  .gree-cell-item-brief {
+    font-size: 35px;
+    margin-top: 25px;
+  }
+  .gree-cell-item-body.multilines {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+  .gree-radio-icon .icon-unchecked:before,
+  .icon-checked:before {
+    width: 55px;
+    height: 55px;
+    color: transparent;
+    background-size: 99% 99%;
+    background-repeat: no-repeat;
+  }
+  .gree-radio-list .gree-cell-item-right {
+    margin-right: 25px !important;
+  }
+  
+  .control-area {
+    padding-bottom: 40px;
+    .list {
+      margin-top: 0;
+      margin-bottom: 34px;
+      .item-content {
+        padding-left: 0 !important;
+        font-size: 42px;
+      }
+      .item-inner {
+        padding: 25px 0px 25px 25px;
+        .item-title .item-footer {
+          font-size: 35px;
+          margin-top: 25px !important;
+        }
+      }
+      li {
+        height: 123px;
+      }
+      .scene {
+        height: 150px;
+        img {
+          height: 110px;
+          width: 110px;
+        }
+      }
+      .scene-name {
+        height: 50px;
+        padding-left: 70px;
+      }
+      .control {
+        height: max-content;
+        .item-content .item-inner .item-title .item-footer {
+          margin-top: 10px;
+        }
+        .item-after {
+          margin-right: 50px;
+          .switch {
+            font-size: 75px;
+          }
+        }
+      }
+    }
+    #datetimePicker.pop {
+      .van-picker__toolbar {
+        display: none;
+      }
+      .van-picker__frame::after {
+        display: none;
+      }
+      .van-picker__columns {
+        padding: 0 2%;
+        .van-picker-column {
+          font-size: 45px;
+          .van-picker-column__item {
+            color: #666464;
+          }
+          .van-picker-column__item--selected {
+            font-size: 55px;
+            color: #00aeff;
+          }
+        }
+      }
+      .title {
+        color: #404657;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: white;
+        text-align: center;
+        font-size: 47px;
+      }
+      .row {
+        padding-top: 50px;
+        background: white;
+        color: #00aeff;
+        .col-50 {
+          width: 50% !important;
+          height: 140px;
+          line-height: 140px;
+          text-align: center;
+          font-size: 42px;
+          border-top: 1px solid #EBEBEC;
+        }
+        >:first-child {
+          border-right: 1px solid #EBEBEC;
+          color: #404657;
+        }
+      }
+    }
+  }

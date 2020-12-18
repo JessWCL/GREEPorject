@@ -1,0 +1,11 @@
+@import 'home';
+@import 'offline';
+@import 'circle-slider';
+
+.hidden {
+  display: none !important;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+}

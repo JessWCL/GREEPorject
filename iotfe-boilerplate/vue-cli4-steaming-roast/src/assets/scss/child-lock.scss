@@ -1,0 +1,14 @@
+.page-child-lock {
+  .list {
+    margin: 0;
+    font-size: 45px;
+    .gree-switch {
+      font-size: 60px;
+      &.active {
+        .switch-icon {
+          background-color: #f1ae26;
+        }
+      }
+    }
+  }
+}

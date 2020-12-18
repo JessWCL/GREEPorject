@@ -1,0 +1,101 @@
+.page-filter{
+  overflow-x: hidden !important;
+  position: relative;
+  .card{
+    text-align: center;
+    margin: 2%;
+    .header{
+      height: 700px;
+      color: #fff;
+      background-color: #f9963c;
+      border-radius: 10px 10px 0  0;
+      .header-describle{
+        text-align: left;
+        margin-left: 30px;
+        font-size: 50px;
+        padding-top: 30px;
+      }
+    }
+    .text{
+      padding-left: 30px;
+      height: 100px;
+      line-height: 100px;
+      font-size: 50px;
+      color: #1E90FF;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+    }
+    table{
+      width: 100%;
+      height: 300px;
+      background-color: #fff;
+      padding: 0 30px;
+      border: 1px solid gray;
+      border-collapse: collapse;
+      tr {
+        font-size: 40px;
+        th {
+          text-align: center;
+          white-space:nowrap;
+        }
+        th, td{
+          padding: 30px;
+          vertical-align: middle;
+          text-align: center;
+          border: 1px solid gray;
+        }
+        th:nth-child(1){
+          width: 20%;
+          min-width: 20%;
+        }
+        th:nth-child(2){
+          width: 50%;
+          min-width: 50%;
+        }
+        th:nth-child(3){
+          width: 30%;
+          min-width: 30%;
+        }
+        td:nth-child(1){
+          width: 20%;
+          min-width: 20%;
+        }
+        td:nth-child(2){
+          width: 50%;
+          min-width: 50%;
+        }
+      }
+    }
+  }
+}
+
+
+
+#waveBg,
+#waveBg1,
+#waveBg2,
+#can,
+#can1,
+#can2{
+  position: absolute;
+  width: 96%;
+}
+#wave0,
+#wave1,
+#wave2{
+  position: relative;
+}
+
+.lestwaveTips, 
+.lestwaveVal{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
+}
+.lestwaveVal{
+  top: 50%;
+  font-size: 80px;
+}

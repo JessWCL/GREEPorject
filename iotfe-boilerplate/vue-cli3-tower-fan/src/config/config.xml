@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<device>
+  <!-- <mid>828211</mid>
+  <version>1.3</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Rotate","LRAngle","Mod","WdSpd","TmrOn","TmrAction","TmrHour","TmrMin","estate","JFerr"]</statueJson>
+  <statueJson2>["Pow","Rotate","LRAngle","Mod","WdSpd","TmrOn","TmrAction","TmrHour","TmrMin","estate","JFerr"]</statueJson2> -->
+  <mid>828213</mid>
+  <version>1.2</version>
+  <iconpath>/images/icon.png</iconpath>
+  <iconpath2>/images/iconGroup.png</iconpath2>
+  <statueJson>["Pow","Rotate","Anion","Mod","WdSpd","TmrOn","TmrAction","TmrHour","TmrMin","estate1","JFerr"]</statueJson>
+  <statueJson2>["Pow","Rotate","Anion","Mod","WdSpd","TmrOn","TmrAction","TmrHour","TmrMin","estate1","JFerr"]</statueJson2>
+</device>

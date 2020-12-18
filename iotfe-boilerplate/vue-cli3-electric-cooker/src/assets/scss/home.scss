@@ -1,0 +1,77 @@
+.page-home {
+  .page-header {
+    .wrapper {
+      span {
+        color: #fff;
+        font-size: 44px;
+      }
+    }
+    .mode-time-wrapper {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 35px;
+      color: #fff;
+      text-align: center;
+      span {
+        &:nth-of-type(1),
+        &:nth-of-type(3),
+        &:nth-of-type(5) {
+          font-size: 42px;
+        }
+        &:nth-of-type(2),
+        &:nth-of-type(4) {
+          font-size: 148px;
+        }
+      }
+      p:last-child {
+        font-size: 70px;
+      }
+    }
+  }
+  .page-main {
+    position: relative;
+    .default-time-wrapper {
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 700px;
+      box-sizing: border-box;
+      .gree-notice-bar {
+        width: 100%;
+        align-self: flex-start;
+        font-family: sans-serif;
+        font-size: 54px;
+      }
+      .default-time {
+        height: 540px;
+        .txt {
+          &:nth-of-type(1),
+          &:nth-of-type(3),
+          &:nth-of-type(5) {
+            font-size: 54px;
+          }
+          &:nth-of-type(2),
+          &:nth-of-type(4) {
+            font-size: 324px;
+          }
+        }
+      }
+    }
+    .lave-time-wrapper,
+    .segmentation {
+      height: 844px;
+    }
+    .btn-switch {
+      max-width: 432px;
+      height: 148px;
+      font-size: 76px;
+      &::after {
+        border-radius: 148px !important;
+      }
+    }
+  }
+}

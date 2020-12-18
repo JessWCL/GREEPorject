@@ -1,0 +1,36 @@
+.page-error {
+  .page-content {
+    padding-bottom: calc(330px + env(safe-area-inset-bottom));
+    .new-error {
+      height: 100% !important;
+      overflow-y: auto; 
+      .gree-new-error .list ul li .item-content .item-inner .item-after{
+        white-space: normal;
+      }
+      .gree-new-error .list ul li .item-content .item-media .logo .divider {
+        position: absolute;
+        display: table;
+        text-align: center;
+        height: 130px;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+      }
+    }
+    .gree-header {
+      background-color: #fff;
+    }
+  }
+}
+
+.toolbar {
+  bottom: 70px !important;
+  height: 260px !important;
+  background-color: transparent !important;
+  .row {
+    width: 100%;
+    text-align: center;
+    justify-content: space-between !important;
+  }
+}
